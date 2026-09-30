@@ -1,0 +1,47 @@
+---
+title: Activate the Microsoft translator configuration
+description: Make the Microsoft translation service available for use by activating the Microsoft translator configuration.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-ms-translator-config.html
+release: australia
+product: Dynamic Translation
+classification: dynamic-translation
+topic_type: task
+last_updated: "2026-07-10"
+reading_time_minutes: 1
+breadcrumb: [Microsoft Azure Translator Service spoke, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Activate the Microsoft translator configuration
+
+Make the Microsoft translation service available for use by activating the Microsoft translator configuration.
+
+## Before you begin
+
+-   Create an account with Microsoft Azure for machine translation services, and set up the integration. For information see [Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md) and [Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md).
+-   Role required: admin.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Dynamic Translation** &gt; **Translator Configurations**.
+
+2.  Select **Microsoft**.
+
+3.  Select the **Active** check box.
+
+4.  In the **Preferences** section, choose this translator as default for translation or detection, or for both.
+
+    |Field|Description|
+    |-----|-----------|
+    |Mark as default for translation|Option to mark the translator as default for translation.|
+    |Mark as default for detection|Option to mark the translator as default for detection of the language of a text.|
+
+5.  Select **Update**.
+
+
+**Parent Topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
+
+**Previous topic:**[Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md)
+
+**Next topic:**[Migrate customized Translator Configurations to v3 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md)
+

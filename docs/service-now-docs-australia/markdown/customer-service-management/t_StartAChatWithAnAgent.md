@@ -1,0 +1,42 @@
+---
+title: Chat with an agent from the Customer Service Portal
+description: Chat with a virtual agent or a customer service agent from the Customer Service Portal to resolve issues quickly.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_StartAChatWithAnAgent.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Chat with an agent from the Customer Service Portal
+
+Chat with a virtual agent or a customer service agent from the Customer Service Portal to resolve issues quickly.
+
+## Before you begin
+
+Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.partner\_admin
+
+## Procedure
+
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Customer Service Portal to start a conversation.
+
+    A virtual agent or a customer service agent responds.
+
+2.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Contact Support icon. and then **Contact Support**.
+
+3.  When you’re finished with the chat, select **End Conversation**.
+
+
+## What to do next
+
+If the agent creates a new case or links the discussion to an existing case, you can view these cases from the customer portal by selecting **My Cases** and displaying the case list.
+
+**Related topics**  
+
+
+[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-conversation.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustPortal.md)
+

@@ -1,0 +1,46 @@
+---
+title: Chat with an agent from the Consumer Service Portal
+description: Chat with a virtual agent or a customer service agent from the Consumer Service Portal to resolve issues quickly.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/start-chat-agent-consumer-portal.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Chat with an agent from the Consumer Service Portal
+
+Chat with a virtual agent or a customer service agent from the Consumer Service Portal to resolve issues quickly.
+
+## Before you begin
+
+Role required: sn\_customerservice.consumer
+
+## Procedure
+
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
+
+2.  Select an option from the pre chat survey.
+
+    A virtual agent or a customer service agent responds.
+
+3.  Enter your query to continue conversation.
+
+4.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
+
+5.  When you’re finished with the chat, select **End Conversation**.
+
+
+## What to do next
+
+If the agent creates a case or links the discussion to an existing case, you can view these cases from the Consumer Service Portal by selecting **Cases** and displaying the case list.
+
+**Related topics**  
+
+
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat.md)
+
+[Chat anonymously with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent.md)
+

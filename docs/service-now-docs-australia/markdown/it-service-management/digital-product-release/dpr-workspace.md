@@ -1,0 +1,90 @@
+---
+title: Digital Product Release Workspace
+description: The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-workspace.html
+release: australia
+product: Digital Product Release
+classification: digital-product-release
+topic_type: concept
+last_updated: "2026-08-31"
+reading_time_minutes: 2
+breadcrumb: [Explore, Digital Product Release, IT Service Management]
+---
+
+# Digital Product Release Workspace
+
+The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
+
+## Digital Product Release Workspace users
+
+The following users can use the Digital Product Release Workspace. The workspace is personalized for different roles.
+
+<table id="table_cdy_h3z_qqb"><tbody><tr><td>
+
+Release manager
+
+</td><td>
+
+-   Manages release calendars
+-   Manages release templates
+-   Establishes release processes, including policy gates
+
+</td></tr><tr><td>
+
+Release coordinator or Program manager
+
+</td><td>
+
+-   Communicates dependencies across a release
+-   Approves the scope of a release
+-   Provides status updates to the release team
+
+</td></tr><tr><td>
+
+Product manager
+
+</td><td>
+
+-   Releases new products, services, enhancements,and features
+-   Communicates updates to the development status
+-   Plans the scope of a release
+-   Initiates a release
+-   Generate release notes using AI or add manually
+
+</td></tr><tr><td>
+
+Engineering lead
+
+</td><td>
+
+-   Ensures development of new products, services, enhancements,and features
+-   Connects development scope to a release
+
+</td></tr></tbody>
+</table>## Accessing the workspace
+
+To open the workspace, navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
+
+## Landing page
+
+On the workspace landing page, get a quick overview of the active releases, open approval tasks, and policies compliance status. The widgets and the data that are displayed in the widgets depend on your role. The numbers show only from releases where you're either the release owner or a release team member.
+
+**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
+
+As a release manager, you can use the onboarding tool to create and manage release processes.
+
+The following is an example of the workspace landing page for the Digital Product Release application.
+
+\[Omitted image "dpr-workspace-homepage.png"\] Alt text: The homepage of Digital Product Release Workspace.
+
+## Release template Playbook
+
+In the workspace, you can use the Playbook to create release templates.
+
+The following is an example of a release template playbook. For more information, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
+
+\[Omitted image "dpr-workspace-rls-template.png"\] Alt text: Release template Playbook in Digital Product Release Workspace.
+
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+

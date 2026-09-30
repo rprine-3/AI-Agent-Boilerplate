@@ -1,0 +1,64 @@
+---
+title: Create a portfolio plan view
+description: Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.html
+release: australia
+product: Scenario Planning in SPW
+classification: scenario-planning-in-spw
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Create a portfolio plan view
+
+Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
+
+## Before you begin
+
+Role required: sn\_align\_core.ap\_read\_only
+
+## About this task
+
+You can create up to three private views and up to ten shared \(public\) views per portfolio plan.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
+
+2.  From the list of portfolio plans, select one.
+
+3.  Make any changes to the view as needed.
+
+    For example, apply filter with the **Department** attribute and the value as **Finance**.
+
+    The **Save as new view** option appears on the portfolio plan header.
+
+    \[Omitted image "create-shared-view-spw.gif"\] Alt text: shared view in strategic planning.
+
+4.  From the portfolio plan header, select **Save as new view**.
+
+5.  On the Save as new view window, fill the details.
+
+    1.  Enter a name for the view in the **View name** field.
+
+    2.  Select the **Shared view** toggle to make this view public.
+
+        Selecting the **Shared view** toggle makes the view visible to all stakeholders with whom this portfolio plan is shared.
+
+    3.  Select **Save**.
+
+
+## Result
+
+The shared view for the portfolio plan is created and will be visible to all stakeholders with whom this portfolio plan is shared.
+
+## What to do next
+
+-   Share the portfolio plan with your stakeholders to start collaborating on the portfolio plan. See [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md).
+-   Edit a portfolio plan view to make any changes to the existing view. See [Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md).
+
+**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.md)
+

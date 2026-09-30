@@ -1,0 +1,86 @@
+---
+title: Configure KPIs for agents
+description: Configure key performance indicators \(KPIs\) in service channels for your agents so that you can track the agents' ongoing work and real-time performance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-kpis-agents-configurable-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Configure KPIs for agents
+
+Configure key performance indicators \(KPIs\) in service channels for your agents so that you can track the agents' ongoing work and real-time performance.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_channel\_mgmt.admin
+
+## About this task
+
+Add key performance indicators to channels to help managers perform the following actions:
+
+-   Review real-time performance of agents who are actively working on tasks across channels and queues.​
+-   Track progress against KPIs and drill down into agents and individual performance.​
+
+The KPI scores are automatically refreshed at an interval of 30 seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md). Also, the service channel card refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds**. You can also manually refresh by clicking the Refresh icon.
+
+​
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Service Channels**.
+
+2.  Click the service channel to which you want to add the KPIs.
+
+3.  Click the Agents Reports related list.
+
+4.  Add the [reports for agents in Channel Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.md) that are by default configured with Workforce Optimization for ITSM.
+
+    **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
+
+5.  Click **Save**.
+
+6.  To create a KPI report that is explicitly applicable to your teams, do the following:
+
+    1.  Navigate to **Reports** &gt; **Create New**.
+
+    2.  Fill in the details.
+
+        For more information, see [Create a single score report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_SingleScoreCharts.md).
+
+    3.  Click **Save**.
+
+        The KPI report is created.
+
+    4.  Navigate to **Reports** &gt; **Administration** &gt; **Interactive Filters**.
+
+    5.  Click **Channel Management Agent Filter**.
+
+    6.  Select the Interactive filter references related list and click **New**.
+
+        The Interactive Filter Reference - Channel Management Agent Filter page appears.
+
+    7.  Select the KPI report's table name and field name.
+
+        For more information, see [Create a reference field interactive filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAReferenceFieldPublisher.md).
+
+    8.  Click **Submit**.
+
+    9.  Repeat steps 1 to 4 for each KPI report to be added in the service channel.
+
+    -   KPI reports are added with an **Order** being shown as 100, 200, and so on. You can also change the order of a KPI report during selection.
+    -   By default, the report name is considered as the **Name**. However, you can change the display name per the business needs.
+
+## Result
+
+The KPIs that are configured in the service channel appear in the Current Work section of the agent's Overview page. For more information, see [Track and analyze agent's performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/view-agents-availability-itsm-configurable-workspace.md).
+
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
+

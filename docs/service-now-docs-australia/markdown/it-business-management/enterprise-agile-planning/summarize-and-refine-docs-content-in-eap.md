@@ -1,0 +1,98 @@
+---
+title: Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
+description: Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.html
+release: australia
+product: Enterprise Agile Planning
+classification: enterprise-agile-planning
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+keywords: [Refine records, ServiceNow Otto skill, ServiceNow Otto, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
+breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
+
+Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
+
+## Before you begin
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+-   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
+-   Activate the EAP doc summarization ServiceNow Otto skill.
+
+Role required: sn\_apw\_advanced.eap\_user
+
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**.
+
+2.  Navigate to your Doc.
+
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d135584e163">
+
+Type
+
+</th><th align="left" id="d135584e166">
+
+Actions
+
+</th></tr></thead><tbody><tr><td id="d135584e172">
+
+**Team Doc**
+
+</td><td>
+
+1.  Use the Agile structure in the navigation panel to open your team.
+2.  Select the Docs tab and open your Doc.
+
+
+</td></tr><tr><td id="d135584e190">
+
+**Planning item Doc**
+
+</td><td>
+
+1.  From the Backlog or Planning board pages of a team, select a planning item.
+2.  Select **Full details**.
+3.  Select the Docs tab and open your Doc.
+
+
+</td></tr></tbody>
+</table>3.  From your Doc, open the page you want to summarize or refine.
+
+4.  Choose to summarize the selected text on the page or the whole page.
+
+    -   To refine the selected text:
+        1.  Select a single block or multiple blocks of content on the page.
+        2.  Select **ServiceNow Otto** and choose an option.
+
+            1.  **Summarize** to summarize the selected text.
+            2.  **Elaborate** to lengthen the selected text based on the existing context.
+            3.  **Shorten** to make the selected text concise.
+            \[Omitted image "eap-now-assist-selected-content.png"\] Alt text: Summarize, elaborate, or shorten the selected text
+
+    -   To summarize the entire content on the page, select **ServiceNow Otto** from the Doc header and select **Summarize**.
+
+        \[Omitted image "eap-now-assist-doc-summarize.png"\] Alt text: Summarize the entire content on the page
+
+    **Tip:** If there’s more content to summarize, you can remove some text and retry.
+
+    ServiceNow Otto analyzes the text and generates an output in a separate pop-up.
+
+5.  Based on the output generated, you can further refine the result or insert the generated content into the Doc.
+
+    \[Omitted image "eap-na-doc-summarization.png"\] Alt text: Summarize selected content.
+
+6.  Copy the generated output by selecting the Copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text:\) to use it for purposes such as sending an email, saving to notes, and others.
+
+    **Important:** Because the output is AI-generated, review it to ensure accuracy.
+
+

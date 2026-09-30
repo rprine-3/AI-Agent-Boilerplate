@@ -1,0 +1,85 @@
+---
+title: Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)
+description: Generate a summary of the Virtual Agent chat history and live agent conversations by using the chat summarization skill in ServiceNow Otto for Customer Service Management \(CSM\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.html
+release: australia
+product: Now Assist for CSM
+classification: now-assist-for-csm
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+---
+
+# Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)
+
+Generate a summary of the Virtual Agent chat history and live agent conversations by using the chat summarization skill in ServiceNow Otto for Customer Service Management \(CSM\).
+
+## Before you begin
+
+Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
+
+## About this task
+
+The chat summarization skill enables you to do the following actions:
+
+-   Summarize the Virtual Agent chat history and provide a summary of the actions taken by the customer before the customer engages with a live agent.
+-   Summarize the live agent and customer chat history, including customer actions before handoff to another live agent.
+-   Summarize the chat at any point during the conversation using the `/summarize` quick action.
+-   Summarize the chat between a live agent and a customer when a chat is handed off to another live agent or when an agent ends the interaction.
+
+**Note:** You can also generate a chat summary on demand from the ServiceNow Otto panel.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+
+2.  In CRM Workspace, open a chat from your inbox.
+
+    The chat summarization skill creates an inline summary in the Active Chat window. This summary includes the customer’s issue and the actions that the customer has taken before the customer engaged with a live agent. The summary appears in the Active Chat window and is identified by the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
+
+3.  Provide feedback for the chat summary by selecting the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\) on the summary card.
+
+    This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+
+4.  Chat with the customer to get any additional details about their question or issue.
+
+    For example, if the customer is having an issue with the hardware, you may need the hardware model number and serial number.
+
+5.  In the Active Chat window, use the `/summarize` quick action to summarize the chat during the conversation with the customer.
+
+    The chat summarization skill creates an additional inline summary in the Active Chat window. This quick action is helpful if you want to summarize long or detailed customer conversations.
+
+6.  If Live Agent to Live Agent handoff is enabled, transfer a chat to another agent after accepting an incoming chat with the following steps:
+
+    1.  Select the Transfer to Agent icon \[Omitted image "user-transfer-fill-24.svg"\] Alt text: Transfer to agent iconto transfer the interaction to another agent.
+
+    2.  Select the name of another live agent.
+
+    3.  The second live agent selects **Accept** to join the chat.
+
+        Another summary of the chat is created when the conversation moves from one live agent to another live agent.
+
+7.  End the chat conversation by selecting **End Chat**.
+
+    The chat summarization skill updates the **Short description** and **Chat Summary** fields on the interaction record when you end the chat.
+
+    **Note:** If a chat summary isn’t available for the interaction, the **Chat Summary** field doesn’t appear on the interaction record.
+
+8.  Review the text in the **Short description** and **Chat Summary** fields and make any necessary corrections.
+
+    Because the information in these fields is automatically generated, it's a good idea to review the text and make sure it's accurate.
+
+9.  Select **Save**.
+
+
+## What to do next
+
+If necessary, you can create a case from an interaction record. The system uses the information from the **Short description** and **Chat Summary** fields on the interaction record to populate the **Short description** and **Description** fields on the case record.
+
+The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent makes changes to the fields and saves the record.
+
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+

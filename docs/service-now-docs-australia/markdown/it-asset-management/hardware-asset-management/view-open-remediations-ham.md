@@ -1,0 +1,43 @@
+---
+title: View open remediation tasks for asset attestations in the Hardware Asset Workspace
+description: Get the details of all the remediation tasks for asset attestations that are awaiting your action in the Hardware Asset Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-open-remediations-ham.html
+release: australia
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+---
+
+# View open remediation tasks for asset attestations in the Hardware Asset Workspace
+
+Get the details of all the remediation tasks for asset attestations that are awaiting your action in the Hardware Asset Workspace.
+
+## Before you begin
+
+Role required: asset or inventory\_admin
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Hardware Asset Workspace** &gt; **Inventory**.
+
+2.  Select the **Overview** tab.
+
+    In the Inventory overview section, the **Open asset remediation tasks** card shows the number of open remediation tasks for asset attestations.
+
+3.  On the Open asset remediation tasks card, select the **View records** to view the list of remediation tasks that need your action.
+
+
+## Result
+
+The list of asset remediation tasks with **Status** as **Open** is displayed.
+
+## What to do next
+
+[Complete the remediation task for asset attestation in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.md).
+
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+

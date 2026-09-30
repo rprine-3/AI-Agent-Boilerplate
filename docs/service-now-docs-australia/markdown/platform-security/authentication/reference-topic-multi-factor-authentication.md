@@ -1,0 +1,53 @@
+---
+title: Reference topic - Multi-factor Authentication
+description: Reference topic related to the configuration of MFA.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/reference-topic-multi-factor-authentication.html
+release: australia
+product: Authentication
+classification: authentication
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
+---
+
+# Reference topic - Multi-factor Authentication
+
+Reference topic related to the configuration of MFA.
+
+## User Multi-factor Authentications
+
+To access the details about the user's MFA, navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Multi-factor Setup**.
+
+|Field|Description|
+|-----|-----------|
+|User|The username of the user|
+|Bypasses remaining|The total number of bypasses that is remaining for the user.|
+|Multi-factor secret|The details of the multi-factor secret.|
+|Validated|Is the multi-factor validated. Changing the value to **false** invalidates the existing authenticator app setup.|
+
+**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reference-topic-multi-factor-authentication.md).
+
+## Multi-factor Browser Fingerprints
+
+To access the details about the user's browser fingerprints, navigate to **All** &gt; **Multi-factor Authentication** &gt; **Multi-factor Browser Fingerprints**.
+
+|Field|Description|
+|-----|-----------|
+|User|The username of the user|
+|Browser|The browser that the user used.|
+|Browser Fingerprint|The browser fingerprint details.|
+|Browser Fingerprint Cookie|The browser fingerprint cookie details.|
+|Browser Fingerprint Cookie Expiry|The browser fingerprint cookie expiry details.|
+
+## User Recent Used Factors
+
+To access the details about the user's recently used factors, navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**.
+
+|Field|Description|
+|-----|-----------|
+|User|The username of the user|
+|Multi Factor Type|The multi-factor type the user used for log in.|
+|Is Recent Factor|The user's recent multi-factor detials.|
+

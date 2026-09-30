@@ -1,0 +1,59 @@
+---
+title: Create a custom view for CWM Boards
+description: Modify Board display preferences and save them as custom personal or shared views that suit the working preferences for you and your team members in Collaborative Work Management \(CWM\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-custom-view-for-cwm-boards.html
+release: australia
+product: Collaborative Work Management
+classification: collaborative-work-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Board views in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
+---
+
+# Create a custom view for CWM Boards
+
+Modify Board display preferences and save them as custom personal or shared views that suit the working preferences for you and your team members in Collaborative Work Management \(CWM\).
+
+## Before you begin
+
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+
+Role required: sn\_cwm.cwm\_user
+
+## About this task
+
+Use the personalization settings to change how the data is presented on a CWM Board and save the changes as a new view. You can create a different custom view for each of the List, Gantt, and Kanban view modes or save them all into a single view.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Collaborative Work Management**.
+
+2.  From a Space, select a Board that you want to create a view for.
+
+3.  Modify the display preferences of the Board data using the personalization settings, sorting, filtering, and adding custom columns.
+
+    For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+
+4.  Select the More actions icon \(\[Omitted image "cwm-icon-views-save-options.png"\] Alt text: More actions icon.\) of the Save view menu and choose **Save as new view**.
+
+    \[Omitted image "cwm-views-save-as-new.png"\] Alt text: Save as new view.
+
+5.  Enter a name for this view and choose to make it a shared view or keep it a personal view.
+
+    Shared views are available for all members who have access to this Board. Not selecting this option saves this view as a new personal view that's only available to you.
+
+    \[Omitted image "cwm-views-create-new.png"\] Alt text: Create view.
+
+6.  Select **Create**.
+
+
+## Result
+
+The new view is available in the view switcher.
+
+\[Omitted image "cwm-views-switcher.png"\] Alt text: View switcher in CWM Board.
+
+**Parent Topic:**[Board views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/board-views-in-cwm.md)
+

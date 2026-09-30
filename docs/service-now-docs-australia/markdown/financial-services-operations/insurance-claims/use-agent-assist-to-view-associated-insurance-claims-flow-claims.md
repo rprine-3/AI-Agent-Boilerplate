@@ -1,0 +1,68 @@
+---
+title: View the associated Insurance claims cases with Agent assist
+description: View the associated claims and relevant knowledge articles by using the Agent assist contextual search.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-insurance-claims-flow-claims.html
+release: australia
+product: Insurance Claims
+classification: insurance-claims
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+---
+
+# View the associated Insurance claims cases with Agent assist
+
+View the associated claims and relevant knowledge articles by using the Agent assist contextual search.
+
+## Before you begin
+
+Role required: sn\_ins\_gen\_claim.fnol\_representative, sn\_ins\_gen\_claim.processor, sn\_ins\_gen\_claim.adjuster, or sn\_ins\_gen\_claim.manager
+
+## About this task
+
+This procedure references service definitions and products that are used in the included travel insurance claim line of business. Your workflow may vary depending on your configuration.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+
+3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
+
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51333e103">
+
+Option
+
+</th><th align="left" id="d51333e106">
+
+Steps
+
+</th></tr></thead><tbody><tr><td id="d51333e112">
+
+**From the case playbook**
+
+</td><td>
+
+1.  On the **Lists** tab, under **Insurance claim cases** \(or the list category that is specific to your custom workflow\), open the case list.
+2.  In the list, select the case that contains the adjuster task.
+
+
+</td></tr><tr><td id="d51333e136">
+
+**From the Insurance claim adjuster tasks list**
+
+</td><td>
+
+1.  On the **Lists** tab, under **Insurance claim adjuster tasks** \(or the list category that is specific to your custom workflow\), select **All**.
+2.  In the list, select the task that you want to open.
+
+
+</td></tr></tbody>
+</table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
+
+    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
+
+

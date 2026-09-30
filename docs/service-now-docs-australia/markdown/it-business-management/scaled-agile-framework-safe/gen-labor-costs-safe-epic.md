@@ -1,0 +1,36 @@
+---
+title: Generate labor costs for epics
+description: View the labor cost expenses based on the resource assignments for your epics.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/gen-labor-costs-safe-epic.html
+release: australia
+product: Scaled Agile Framework \(SAFe\)
+classification: scaled-agile-framework-safe
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Define an epic in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
+---
+
+# Generate labor costs for epics
+
+View the labor cost expenses based on the resource assignments for your epics.
+
+## Before you begin
+
+-   The epic should have the resource assignments.
+-   Role required: sn\_spm\_financial\_user
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Agile Development** &gt; **Epics**.
+
+2.  Select the required epic.
+
+3.  Select the **Generate labor costs** related link.
+
+    Refresh the page to view generated labor costs in the Cost Plan related list.
+
+
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
+

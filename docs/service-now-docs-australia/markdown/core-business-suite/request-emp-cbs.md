@@ -1,0 +1,39 @@
+---
+title: Raise HR requests
+description: Raise an HR request for general requests, payroll, or benefits on CBS.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-emp-cbs.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use, Core Business Suite]
+---
+
+# Raise HR requests
+
+Raise an HR request for general requests, payroll, or benefits on CBS.
+
+## Before you begin
+
+Role required: sn\_cbs.requestor
+
+## Procedure
+
+1.  Navigate to **Self-Service** &gt; **Employee Center**.
+
+2.  In the **Help topics** widget, go to the topic card you require, in this case **Human resources**.
+
+3.  Select any of the following options, fill in the required fields, and select **Submit**.
+
+    -   **Benefits request**
+    -   **Payroll request**
+    -   **General HR request**
+
+        For more information on the field descriptions of each request form, see the following:
+
+        -   [HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-catalog-management.md).
+        -   [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/payslips-awd.md).
+
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
+

@@ -1,0 +1,81 @@
+---
+title: Connect Build Agent to a supported MCP server
+description: Connect a supported MCP server to Build Agent to access external tools and resources in the chat panel when building and editing apps.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ba-connct-mcp-server.html
+release: australia
+topic_type: task
+last_updated: "2026-07-27"
+reading_time_minutes: 2
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+---
+
+# Connect Build Agent to a supported MCP server
+
+Connect a supported MCP server to Build Agent to access external tools and resources in the chat panel when building and editing apps.
+
+## Before you begin
+
+Before you can enable an MCP server in Build Agent, an administrator must approve it as an AI asset in AI Control Tower. Each MCP server requires this approval, regardless of whether the server is enabled by default.
+
+You must have Connect Hub installed.
+
+The end-to-end flow for making an MCP server available is:
+
+1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
+2.  The administrator approves the server as an AI asset in AI Control Tower.
+3.  You authenticate the connection in Personal Integrations.
+4.  You enable the MCP server in Build Agent settings.
+
+For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
+
+**Note:** An allowlist process is required to connect the Build Agent MCP client to the Figma MCP server. Contact Now Support to initiate the process.
+
+Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
+
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/model-context-protocol-connector.md).
+
+See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
+
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio** or **All** &gt; **App Development** &gt; **ServiceNow IDE**.
+
+2.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
+
+    \[Omitted image "ba-settings-panel-1.png"\] Alt text: Build Agent panel showing greeting message and the Settings button
+
+3.  Select the **Enable MCP servers** toggle on the **MCP** tab.
+
+    \[Omitted image "ba-settings-panel-mcp-tab.png"\] Alt text: MCP tab of the Settings panel with the Enable MCP servers and ATF Cloud runner toggles turned on.
+
+4.  Select the MCP servers icon \[Omitted image "ba-mcp-settings-icon.png"\] Alt text: that appears after you enable MCP servers.
+
+    \[Omitted image "ba-mcp-settings-1.png"\] Alt text: Settings panel with the MCP settings button highlighted
+
+5.  Confirm that the MCP server you want is present and enabled.
+
+    \[Omitted image "ba-mcp-list-enabled.png"\] Alt text: Build Agent panel showing MCP servers, all with toggles enabled.
+
+    **Note:** If the MCP server you want isn't available, you must first set it up in Personal Integrations.
+
+6.  Select **Allow** in the confirmation dialog.
+
+    You must do this only for the initial connection.
+
+7.  View the list of available tools that you can call for each MCP server by expanding the server name.
+
+    \[Omitted image "ba-mcp-list-tools.png"\] Alt text: MCP Servers panel showing available tools.
+
+
+## Result
+
+After Build Agent authenticates the connection, you can chat with it to ask questions related to the MCP server.
+
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+

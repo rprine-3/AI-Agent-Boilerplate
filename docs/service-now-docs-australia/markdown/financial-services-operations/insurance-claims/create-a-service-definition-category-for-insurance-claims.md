@@ -1,0 +1,48 @@
+---
+title: Create a service definition category for Insurance claims
+description: Create a service definition category in Insurance claims to properly classify and handle claims that are related to a particular benefit.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-a-service-definition-category-for-insurance-claims.html
+release: australia
+product: Insurance Claims
+classification: insurance-claims
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Creating a service definition for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+---
+
+# Create a service definition category for Insurance claims
+
+Create a service definition category in Insurance claims to properly classify and handle claims that are related to a particular benefit.
+
+## Before you begin
+
+Set the application scope in your instance to **Insurance claims**.
+
+Role required: admin
+
+## About this task
+
+A service definition category is a logical grouping of service definitions. It can act as a filtering mechanism and reduce the number of available services.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Insurance claims** &gt; **Administration** &gt; **Service definition categories**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name of the service definition category.|
+    |Description|Description of the service definition category.|
+    |Order|Order in which the service definition category is displayed.|
+    |Active|Whether the service definition category is active.|
+
+4.  Select **Submit**.
+
+
+**Parent Topic:**[Creating a service definition for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-service-definitions-for-insurance-claims.md)
+

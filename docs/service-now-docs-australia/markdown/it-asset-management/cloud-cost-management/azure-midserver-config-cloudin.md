@@ -1,0 +1,80 @@
+---
+title: Configuring access to CI data on your Microsoft Azure account
+description: To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.html
+release: australia
+product: Cloud Cost Management
+classification: cloud-cost-management
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
+---
+
+# Configuring access to CI data on your Microsoft Azure account
+
+To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
+
+## Detailed instructions
+
+See [Azure Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/azure-cloud-discovery.md).
+
+**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. Skip this process if you use a different method for discovering resources.
+
+## MID Server settings for Cloud Cost Management
+
+**Note:** MID Server minimum memory size should be 4 GB.
+
+<table id="table_t5k_dvd_1jb"><thead><tr><th>
+
+Setting
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+Supported Applications
+
+</td><td>
+
+Cloud Actions
+
+</td></tr><tr><td>
+
+Capabilities
+
+</td><td>
+
+The **ALL** setting includes all required applications and capabilities. Alternatively, you can specify the following settings:
+
+**Note:** You can specify the following settings for any number of MID Servers. If you specify multiple MID Servers, then Discovery, billing data download operations, and actions that are recommended by Cloud Cost Management are assigned to one of the MID Servers at random.
+
+ Option 1: To use this MID Server only for Azure, specify both of the following values:
+
+-   Cloud Actions
+-   Azure
+
+ Option 2: To use this MID Server for all providers, specify the following values:
+
+-   Cloud Actions
+-   AWS
+-   Azure
+-   Google Cloud
+
+</td></tr></tbody>
+</table>## Using a proxy server
+
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.md).
+
+**Related topics**  
+
+
+[MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConfiguration.md)
+
+[Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md)
+
+[Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md)
+

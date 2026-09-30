@@ -1,0 +1,43 @@
+---
+title: Vaccinations widget
+description: The Vaccinations widget displays a list of vaccines recommended for the logged-in user.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-vaccinations.html
+release: australia
+product: Healthcare and Life Sciences Service Management Core
+classification: healthcare-and-life-sciences-service-management-core
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+---
+
+# Vaccinations widget
+
+The Vaccinations widget displays a list of vaccines recommended for the logged-in user.
+
+## Key features
+
+-   Displayed only for a logged-in user with the personal information completed and when the Vaccine Administration Management application is installed.
+-   By default, shows maximum of three programs from the vaccination programs list that the user is eligible for in ascending order by the date administered.
+-   Shows all the suggested and completed vaccinations in the respective sections when a user clicks **View all** on the widget.
+
+<table id="table_vy1_hy2_yrb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Limit item
+
+</td><td>
+
+Maximum number of vaccination programs that appear on the widget. The default value is **3**.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
+

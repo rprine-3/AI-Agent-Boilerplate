@@ -1,0 +1,51 @@
+---
+title: View the install base in CRM Workspace
+description: View a customer’s install base in CRM Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-base-aw-csm.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+---
+
+# View the install base in CRM Workspace
+
+View a customer’s install base in CRM Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
+
+## Before you begin
+
+Verify that the Customer Service Install Base Management plugin \(com.snc.install\_base\) is activated.
+
+Role required: sn\_customerservice\_agent
+
+## About this task
+
+You can view information about a customer's purchased products and services, delivery details, and additional components that are available for the product models.
+
+## Procedure
+
+1.  Open CRM Workspace.
+
+2.  Select the account that you want to view the install base for.
+
+3.  Select the Install Base related list.
+
+4.  Scroll through the Sold Products tree view to view the details about the sold product and the list of install base items that belong to it.
+
+    \[Omitted image "product-model-view.jpg"\] Alt text: Install Base tab for the account includes information about Sold Products and the associated install base items.
+
+5.  On the form header, select the Hierarchy icon \[Omitted image "hierarchy.png"\] Alt text: Sold product hierarchy icon. to see the full product model that the sold product is part of.
+
+    The product model hierarchy opens in a separate window. Unpurchased product components have a shopping cart icon next to them.
+
+    \[Omitted image "product-model.jpg"\] Alt text: Product model showing different purchased and unpurchased product components.
+
+6.  View the install base items and related lists in the configurable workspace by navigating to **Products** &gt; **Install Base item**.
+
+7.  View the details of the install base item by opening an install base item.
+
+    **Note:** You can also use the right navigation pane to view the install base items and related list.
+
+

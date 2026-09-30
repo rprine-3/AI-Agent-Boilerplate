@@ -1,0 +1,45 @@
+---
+title: Attaching calculation guidance document
+description: Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/attaching-calculation-guidance-document.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Activate carbon calculations agentic workflow, Configure, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+---
+
+# Attaching calculation guidance document
+
+Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
+
+## Before you begin
+
+Role required: sn\_esg.admin
+
+## Procedure
+
+1.  In the filter navigator, enter `sn_esg_gen_ai_emission_calculation_guidelines.list`.
+
+2.  Select **Scope3 Calculation Guidance**.
+
+3.  On the form, review the following fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name for the document. This field is automatically set.|
+    |Domain|Domain in which the table is being created. This field is automatically set.|
+    |Description|Description of the document. This field is automatically set.|
+
+4.  Select \[Omitted image "paperclip-outline-24.svg"\] option.
+
+5.  In the **Attachments** pop-up, select **Choose file**.
+
+6.  Select the document that you want to attach from your local and select **Open**.
+
+7.  Close the pop-up and select **Submit**.
+
+
+**Parent Topic:**[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)
+

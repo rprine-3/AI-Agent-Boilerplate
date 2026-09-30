@@ -1,0 +1,48 @@
+---
+title: Create hardware models
+description: Use hardware models to track equipment assets such as servers and racks. You can create a new hardware model.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreatingHardwareModels.html
+release: australia
+product: Product Catalog
+classification: product-catalog
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
+---
+
+# Create hardware models
+
+Use hardware models to track equipment assets such as servers and racks. You can create a new hardware model.
+
+## Before you begin
+
+Role required: model\_manager
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Model** &gt; **Hardware Models**.
+
+2.  Click **New**.
+
+3.  Complete the form.
+
+    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_ModelFormFields.md). The hardware model fields listed are found in the Information section of the form.
+
+    |Field|Description|
+    |-----|-----------|
+    |Height \(U\)|The total height of the hardware item, in inches.|
+    |Flow Rate \(cfm\)|The flow rate of the hardware model, expressed in cubic feet per minute.|
+    |Sound Power \(bels\)|The noise measurement, in bels \(1 bel=10 decibels\).|
+
+4.  Click **Update**.
+
+
+-   **[Add compatible models to a hardware model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_AddingCompModelsToHrdwreModel.md)**  
+On a hardware model record, you can add compatible hardware models, giving you a good method for tracking hardware assets that can work together.
+-   **[Add substitute models to a hardware model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_AddingSubModelsToHrdwModel.md)**  
+On a hardware model record, you can add substitutes to track what hardware models can be substituted for another hardware model.
+
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+

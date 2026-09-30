@@ -1,0 +1,36 @@
+---
+title: Training your teams using Coaching in Workforce Optimization for ITSM
+description: Assess your teams' abilities to resolve incidents efficiently by reviewing their work at critical service moments using Coaching in Workforce Optimization for ITSM.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/coaching-configurable-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Training your teams using Coaching in Workforce Optimization for ITSM
+
+Assess your teams' abilities to resolve incidents efficiently by reviewing their work at critical service moments using Coaching in Workforce Optimization for ITSM.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+With Coaching, you can do the following:
+
+-   Provide training for your agents to address skill gaps.
+-   Use surveys to apply consistent, measurable scores across teams.
+-   [Create opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-coaching-opportunity.md) for improvement using the Coaching application.
+-   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
+
+-   **[Coaching Overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/wfo-itsm-coaching-overview-page.md)**  
+Monitor the progress of assessments and track learning tasks that are overdue. You can also add a coaching quality indicator to monitor trends. Analyze which skills have been assigned the most to your team recently and which top skills are in demand.
+-   **[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)**  
+Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content into learning libraries. Assign learning tasks to your agents and track completion. Create learning paths that include a collection of courses on a specific topic associated with a set of skills.
+-   **[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)**  
+Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
+
+**Parent Topic:**[Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md)
+

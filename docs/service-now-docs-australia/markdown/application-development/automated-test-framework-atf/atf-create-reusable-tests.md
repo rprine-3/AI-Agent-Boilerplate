@@ -1,0 +1,102 @@
+---
+title: Create a reusable test
+description: Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-reusable-tests.html
+release: australia
+product: Automated Test Framework \(ATF\)
+classification: automated-test-framework-atf
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reusable tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+---
+
+# Create a reusable test
+
+Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
+
+## Before you begin
+
+Role required: atf\_test\_admin or atf\_test\_designer
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Reusable Tests**.
+
+    A list of reusable tests created on the instance shows up.
+
+2.  Select **New** to create a new reusable test.
+
+    \[Omitted image "atf-reusable-test-form.png"\] Alt text: Screenshots showing the reusable test form
+
+    The Reusable Test form shows up.
+
+3.  On the form, fill in the fields.
+
+    The read-only fields are filled up automatically.
+
+<table id="table_d5m_h11_2dc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the reusable test.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Read-only field with the scope of the test.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option to define the test as active or not.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+The test step category in which the test shows up. \[Omitted image "atf-reusable-test-step-category.png"\] Alt text: Screenshot showing the reusable test step category
+
+**Note:** If you leave this field empty, the test shows up under the Reusable Tests test category by default.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Description of the reusable test.**Note:** The description of the reusable test is displayed in the step creator modal.
+
+\[Omitted image "atf-reusable-test-description.png"\] Alt text: Screenshot showing the reusable test description
+
+See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
+
+</td></tr></tbody>
+</table>4.  Select **Save** to create the reusable test.
+
+    The reusable test shows up.
+
+    **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite.
+
+
+**Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-reuse-tests.md)
+

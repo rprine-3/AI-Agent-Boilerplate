@@ -1,0 +1,51 @@
+---
+title: Monitor ongoing work in service channels and queues​
+description: Monitor the incoming data and on-going work done by your agents against each service channel and queue.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/monitor-service-channels-configurable-workspace.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Monitor ongoing work in service channels and queues​
+
+Monitor the incoming data and on-going work done by your agents against each service channel and queue.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_wfo\_cfg\_ws.manager
+
+## About this task
+
+Track the real-time performance of your teams directly reporting to you and the teams you have visibility into. Drill down into the data for a work item, a specific agent, service channel, queue, or assignment group. Filter agents based on assigned queues and assignment groups. Assign the work items or help agents as needed.
+
+Drill-down into the specific record and perform the following actions against each channel and queue:
+
+-   Real-time information of ongoing incidents, interactions, and other tasks​.
+-   Work done during the day.
+-   Waiting work items that must be assigned.
+-   Drill down and view agent information in one or more assignment groups.
+-   Summary information across queues and agents​
+-   Take or change ownership​.
+-   Add comments.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace**.
+
+2.  Using one of the following ways, select a service channel:
+
+    -   From the **Overview** section.
+    -   From the **Active Work Items** tab.
+3.  Monitor ongoing work from agents.
+
+
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+

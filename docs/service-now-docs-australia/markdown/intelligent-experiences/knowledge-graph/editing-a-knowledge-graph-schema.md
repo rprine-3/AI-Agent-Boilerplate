@@ -1,0 +1,50 @@
+---
+title: Edit a Knowledge Graph schema
+description: Edit a Knowledge Graph schema to customize or update the existing schema details.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.html
+release: australia
+product: Knowledge Graph
+classification: knowledge-graph
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+---
+
+# Edit a Knowledge Graph schema
+
+Edit a Knowledge Graph schema to customize or update the existing schema details.
+
+## Before you begin
+
+Role required: kg\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Knowledge Graph** &gt; **Knowledge Graph Designer**.
+
+    The UI displays a list of all the Knowledge Graph schema on the landing page.
+
+2.  From the list of existing Knowledge Graph schema, select a Knowledge Graph schema to edit.
+
+    The Knowledge Graph schema​ opens in the Knowledge Graph canvas.
+
+3.  Select the edit icon \(\[Omitted image "icon-edit-pencil.png"\] Alt text: Edit icon.\).
+
+4.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Display Name|Display name of the Knowledge Graph schema.|
+    |Name|Name of the Knowledge Graph schema.|
+    |Scope|Scope used to create the Knowledge Graph schema.|
+    |Description|Knowledge Graph schema overview for users.|
+
+5.  To save the changes, select **Save**.
+
+6.  Delete all the changes made to the Knowledge Graph schema by selecting **Discard**.
+
+    \[Omitted image "discard-changes-in-kg-schema.png"\] Alt text: Discard changes.
+
+

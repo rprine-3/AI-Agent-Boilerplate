@@ -1,0 +1,79 @@
+---
+title: Set notifications for configured key alerts
+description: Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configuring-io-alerts.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
+---
+
+# Set notifications for configured key alerts
+
+Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+ServiceNow offers configurable alerts that allow for custom alerts or pre-canned alerts based on ServiceNow recommendations around various metrics. These alerts can be sent through email to various members of the organization or to Instance Observer users.
+
+Many of these alerts have monitoring built around, and most of them have recommendations as to how you monitor alerts. The internal alerts have conditions that help you get an insight when deviations from normal patterns occur across an instance. Alerts aren't mostly an indication of a problem, just a deviation from the normal. However, with alerts you must be mindful of time.
+
+## Procedure
+
+1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Go to Instance Observer**
+
+2.  Log in to Instance Observer and navigate to **Alerts** &gt; **Configure alerts**.
+
+    You can view all the alert type options. These are different metrics you can use to trigger that metrics from transactional date to database response time. They are technical indicators for potential issues on performance on a given instance.
+
+    \[Omitted image "config-alert-banner.png"\] Alt text: Shows the Configure Alerts banner to begin alert configuration.
+
+    For example, long running job alerts can indicate potential performance issues or pre-emptive alerts for upcoming performance issues. For more information and how to configure long pending jobs, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-long-pending-jobs.md).
+
+3.  Select **Configure your alerts**.
+
+    Alerts for metrics chosen by the system display.
+
+4.  Select up to five alerts from the **Max alerts per day / per metric** drop-down to receive for each metric per day.
+
+    The maximum number of alerts selected pertains to each of the six available system metrics. If you choose a maximum of two alerts for each metric, then you receive 12 alerts, as the maximum alert count each day, for example \(2 alerts\) X \(6 metrics\) = 12 alerts. The alert count resets daily at 00:00 UTC.
+
+    \[Omitted image "alert-max-threshold.png"\] Alt text: Shows the alert configuration drop-down selector.
+
+5.  Select **Set Notification**.
+
+    The Alert configuration page loads and the **Default** notification rule is automatically selected.\[Omitted image "alert-config-io.png"\] Alt text: The Alert Notification screen with the Default alert selected. How to Configure Notification Rules and Configure Notification links are also available.
+
+6.  Select **Configure Notification** to create a custom rule.
+
+    The **How to Configure Notification Rules** link contains information on custom notification creation. Rule options include Rule Name, Recipients, and Notification Methods.
+
+7.  Select **Review &amp; Create** to display the summary of the alerts to be configured and the notification rule.
+
+    \[Omitted image "create-io-alert.png"\] Alt text: Shows the list of alerts to be configured and the confirmation button.
+
+8.  Select **Create Alert** or **Set Notification** to return to the notifications configuration page.
+
+    A notification appears to confirm the alert configuration.
+
+
+## Result
+
+After the request submission, all six alerts will be enabled automatically, no manual intervention is required. If you want to see the alert threshold, navigate to **Edit Alert configuration** to access the **IO recommended** condition.
+
+**Note:** If one or more alerts out of the six available aren’t enabled automatically, then a threshold wasn’t available for that specific metric due to limited use in the instance.
+
+After the notifications and alerts are activated you can view them on the Instance Observer home page, which is the [User configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md) as **Self-Service Alerts** in the **Alerts** card.
+
+## What to do next
+
+[Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-io-alerts.md)
+
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+

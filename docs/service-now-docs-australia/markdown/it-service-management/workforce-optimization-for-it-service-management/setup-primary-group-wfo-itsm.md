@@ -1,0 +1,41 @@
+---
+title: Assign a primary assignment group for each agent
+description: Associate each agent in your team to a primary assignment group to enable them to see the KPI metrics for the groups to which they belong.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/setup-primary-group-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configuring groups, Getting started, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Assign a primary assignment group for each agent
+
+Associate each agent in your team to a primary assignment group to enable them to see the KPI metrics for the groups to which they belong.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_wfo\_cfg\_itsm.admin
+
+## About this task
+
+Before you set up Workforce Optimization for ITSM, you must assign each agent in your team to an assignment group that is identified as the primary assignment group to which they belong.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **User Administration** &gt; **Users**.
+
+2.  Right-click the form context menu icon \(\[Omitted image "list-icon.png"\] Alt text: Form context menu icon\) and select **View** &gt; **WFO Workspace**.
+
+3.  In the **Primary Assignment Group** field, select a group as the primary assignment group for each agent.
+
+    If you do not see the **Primary Assignment Group** field, select the gear icon and add the **Primary Assignment Group** field to the **Selected** column and select **OK**.
+
+
+**Parent Topic:**[Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md)
+

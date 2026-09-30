@@ -1,0 +1,47 @@
+---
+title: Create a ServiceNow Otto approval task
+description: Create an ServiceNow Otto approval task to evaluate the assets.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
+release: australia
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+---
+
+# Create a ServiceNow Otto approval task
+
+Create an ServiceNow Otto approval task to evaluate the assets.
+
+## Before you begin
+
+The ServiceNow Otto approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to ServiceNow Otto **Approvals** and open an Approval record.
+
+2.  Under the **Playbook** section, confirm that the **Review asset** step is marked as complete.
+
+3.  Select **Create new task** under **Evaluate asset**.
+
+    A new approval task is created. The task number and task type fields are auto-populated.
+
+4.  Enter the **Short description**, **Description**, **Due date**, and **Close notes**.
+
+5.  Select the **Priority**, **State**, and **Status** of the task from the drop-down menu.
+
+6.  Enter and search for **Assigned to** and **Parent approval record**.
+
+    The **Parent approval record** gets auto-populated and appears in a read-only mode.
+
+7.  Select **Save**.
+
+    A ServiceNow Otto Approval task of an approval request is created.
+
+

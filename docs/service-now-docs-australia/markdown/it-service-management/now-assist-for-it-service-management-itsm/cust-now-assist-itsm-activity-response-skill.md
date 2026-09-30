@@ -1,0 +1,129 @@
+---
+title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident activity response generation skill
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-activity-response-skill.html
+release: australia
+product: Now Assist for IT Service Management \(ITSM\)
+classification: now-assist-for-it-service-management-itsm
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+---
+
+# Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident activity response generation skill
+
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
+
+## Before you begin
+
+Role required: sn\_nowassist\_admin.nsa\_admin
+
+## About this task
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+
+2.  Select the **AI Skills** tab.
+
+3.  In the **Technology** feature group, select **ITSM** from the product list.
+
+4.  Select the **Incident activity response generation** skill and open it.
+
+5.  Choose input data.
+
+    The skill relies on the Incident input table and following input fields to provide context for the Now LLM Service in the incident activity response:
+
+    -   Short description
+    -   Description
+    -   Priority
+    -   State
+    -   Work notes
+    -   Comments
+    The table input table and the input fields are read-only.
+
+    \[Omitted image "now-assist-itsm-activity-resp-gen-input.png"\] Alt text: Choose input data screen for activity response generation that contains the input table and fields to define the prompt.
+
+6.  Define availability.
+
+    Define how the skill will be available to users.
+
+    1.  Configure the skill to be always available to users, or select the conditions that must be met before the skill is available.
+
+        Selecting **Customize skill availability** displays a condition builder to filter the data further.
+
+    2.  Select **Save and continue** to go to the next step.
+
+7.  Define access.
+
+    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+8.  Select display.
+
+    1.  Enable the In-product display so that the AI skills are displayed in all ITSM products \(on forms and in workspaces\).
+
+        For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
+
+    2.  Select **Save and continue** to go to the next step.
+
+9.  Review and activate.
+
+    Review your choices and select **Activate** to complete the skill customization. The popup that shows that the activation was successful appears.
+
+10. Configure the ServiceNow Otto context menu to generate an activity response and refine the content.
+
+    You can also access the Otto context menu by doing the following:
+
+    1.  In the **ServiceNow Otto Admin** screen, select **AI Experiences**.
+    2.  Select **Otto context menu**.
+    3.  Select the **Configurations** tab.
+    4.  Select **Incident activity response in ServiceNow Otto context menu**.
+    1.  Select **Go to ServiceNow Otto context menu**.
+
+        The **Incident activity response in ServiceNow Otto context menu** screen appears.
+
+        **Note:** In the **General details** screen:
+
+        -   The table name is **Incident** by default and is read-only.
+        -   You can configure the skill to generate a response for any of these options shown in the table below in the work notes and comments in the incident's activity stream.
+        |Options|Description|
+        |-------|-----------|
+        |Acknowledge task|Acknowledge the receipt of the task record.|
+        |Post response|Generate a reply for specific questions from the user.|
+        |Summarize actions taken|Generate a summary of all actions taken.|
+        |Follow up|Ask follow-up questions.|
+
+    2.  Select **Save and Continue**.
+
+        The **Configure experience** screen displays.
+
+        **Note:**
+
+        -   The default trigger actions are as follows:
+            -   For Work notes, the actions are Summarize actions, and Post response.
+            -   For Additional comments, the actions are Follow up, Post response, and Acknowledge task.
+        -   The **Insert** action is selected by default.
+        When you select the ServiceNow Otto icon in the **Preview** panel, it shows how the generated activity response will display in ServiceNow Otto context menu.
+
+    3.  Select **Save and continue**.
+
+        The **Define access** screen displays.
+
+        **Note:** By default this screen shows that an itil user can access the **Incident activity response in ServiceNow Otto** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+        \[Omitted image "now-assist-itsm-act-resp-define-access.png"\] Alt text: Define access screen in the Incident activity response in NACM screen
+
+    4.  Select **Save and continue**.
+
+        The **Select display** screen displays. The **Display** button is enabled by default and displays the context menu configuration in all ITSM products.
+
+    5.  Select **Save and continue**.
+
+        The **Review and activate** screen displays. In the **Select a record to test configurations** field, select an incident number for which you want to preview the activity response generated for the selected incident and select **Preview**. You can preview the generated content in context menu.
+
+    6.  Select **Done**.
+
+

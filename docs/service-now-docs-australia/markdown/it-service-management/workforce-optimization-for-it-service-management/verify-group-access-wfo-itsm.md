@@ -1,0 +1,39 @@
+---
+title: Verify the display of the right groups in Workforce Optimization for ITSM
+description: Verify that the logged in user can access the correct assignment groups data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/verify-group-access-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Add or remove access to assignment groups in manager workspace, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Verify the display of the right groups in Workforce Optimization for ITSM
+
+Verify that the logged in user can access the correct assignment groups data.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_wfo\_cfg\_ws.manager
+
+## Procedure
+
+1.  Impersonate the manager for which you want to verify access.
+
+2.  Select **All** and in the filter navigator, enter `sys_user_grmember.list`.
+
+3.  Select the filter icon and set the condition as **\[Group\]** **\[is\(dynamic\)\]****\[MYWFOGroups\]**.
+
+    The output displays all assignment groups that have access to the manager workspace. This output is based on the configurations in the **Group Exclusions** filter and the implementations using the extension points.
+
+    If the assignment groups listed are missing any groups that the logged-in user must have access to, verify that the **Group Exclusions** filter, and the extension points are configured correctly.
+
+
+**Parent Topic:**[Add or remove access to assignment groups in Workforce Optimization for ITSM manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/specify-access-assignment-group-wfo-itsm.md)
+

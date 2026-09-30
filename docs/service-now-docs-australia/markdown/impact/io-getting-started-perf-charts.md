@@ -1,0 +1,46 @@
+---
+title: Generate performance charts
+description: Follow these steps to generate Performance charts using Instance Observer.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-getting-started-perf-charts.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
+---
+
+# Generate performance charts
+
+Follow these steps to generate Performance charts using Instance Observer.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
+
+2.  From the **Performance** menu, select the telemetry option to evaluate.
+
+    \[Omitted image "io-perf-menu.png"\] Alt text: The Performance menu listing all of the telemetry charts available.
+
+3.  Select the reporting options:
+
+4.  -   Instance
+-   Metrics \(The metrics available depend on the report selected.\)
+-   Date range
+-   Options and add-ons
+5.  Select **Get Snapshot**.
+
+    **Note:** Options available on Report and Charts:
+
+    -   Select a data point to view additional actions or remove the entry.
+    -   Right-click to isolate a data point.
+    -   Select and drag across the chart to drill down.
+    -   Download to PNG, SVG, or CSV files or view transactions on the instance.
+    -   Change the report type.
+
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+

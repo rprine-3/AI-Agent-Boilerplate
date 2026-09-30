@@ -1,0 +1,86 @@
+---
+title: Monitor schedule adherence of your agents
+description: Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Schedule Adherence, Scheduling, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Monitor schedule adherence of your agents
+
+Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_shift\_planning.admin
+
+## About this task
+
+-   A high adherence rate indicates that agents are sticking to their schedules and resolving work items as expected. Low adherence rates indicate that you may want to analyze the processes or decisions and tweak them to manage your teams' schedule efficiently. The numbers are highlighted in red for non-adherent agents.
+-   Schedule adherence and conformance calculations are based on the formulas to calculate schedule adherence and conformance and also the agents' actual and planned work timings. The following are the default formulas that are used to calculate adherence and conformance for agents. However, your administrator can customize the Schedule adherence extension points to configure the formulas as required.
+
+    Components and formulas used in schedule adherence:
+
+    -   The **Agent Time Work Event Trigger** business rule generates clock-in and clock-out events anytime there's a change in agent's presence state. The **shift\_planning\_clock-in** and **shift\_planning\_clock-out** scripts generate the agents' clock-in and clock-out events from the login and logout sessions.
+    -   Formulas:
+        -   Schedule adherence is calculated as `(Minutes worked in shift/Scheduled shift time in minutes + Overtime)`.
+        -   Conformance is calculated as `(Minutes worked in shift + Overtime)/Scheduled shift time in minutes`.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
+
+2.  Click the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
+
+3.  Monitor the schedule adherence of your agents.
+
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d345984e144">
+
+To
+
+</th><th align="left" id="d345984e147">
+
+Do this
+
+</th></tr></thead><tbody><tr><td id="d345984e153">
+
+**View schedule adherence at organization or team level**
+
+</td><td>
+
+Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
+
+</td></tr><tr><td id="d345984e168">
+
+**Analyze planned vs actual scheduling for your team members**
+
+</td><td>
+
+1.  Click the **Team Calendar** tab.
+2.  Select a date on the calendar.
+3.  Click on the bar that represents the agent's actual time worked to view the summary.
+ **Note:** The clock-in and clock-out timings are the actual work timings of your agents. The events are generated based on the agent's login, logout actions, and presence state. If an agent forgets to clock-out, the system automatically generates the clock-out event after 60 min, by default. However, your administrator can change it the using **Default threshold time for clock-out event generation \(in Minutes\)** .
+
+Example: A clock-in event gets generated when an agent logs in or changes the presence status to **Available**. Similarly, a clock-out event gets generated when an agent logs out of the system or changes the presence status to either **Offline** or **Break**. If an agent fails to clock-out even after 60 min of the shift end time, the system automatically generates the clock-out event.
+
+</td></tr></tbody>
+</table>    The image below shows an example of how well the team members are adhering to their work schedules. The bar colors are represented as follows:
+
+    -   Blue—planned work shift
+    -   Gray—agent not available
+    -   Green—agent is available
+    -   Purple—agent clock-in-time
+    -   Red—agent clock-out-time
+    \[Omitted image "schedule-adherence-itsm.png"\] Alt text: Schedule Adherence
+
+
+**Parent Topic:**[Schedule Adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)
+

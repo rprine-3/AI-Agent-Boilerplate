@@ -1,0 +1,52 @@
+---
+title: Close a release
+description: Complete a release after all tasks have been completed and all phases are in compliance with the mapped policies.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-complete-release.html
+release: australia
+product: Digital Product Release
+classification: digital-product-release
+topic_type: task
+last_updated: "2026-08-31"
+reading_time_minutes: 1
+breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
+---
+
+# Close a release
+
+Complete a release after all tasks have been completed and all phases are in compliance with the mapped policies.
+
+## Before you begin
+
+A release must be in the Review state to mark it as complete.
+
+Role required: sn\_dpr\_model.release\_admin
+
+## About this task
+
+**Note:** A release that follows a stage-oriented process automatically moves to Completed when it’s compliant, provided that the **stage\_workflow\_auto\_transition** system property is set to true.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
+
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
+
+3.  Select a release from the list to open.
+
+4.  Review the completeness of the release to determine if all the release work is complete.
+
+5.  Close the release.
+
+    -   In a single product or service release, select **Complete release**from any section page.
+    -   In a multi-product release, select **Complete release** on the Dashboard page or any section's page with **All products and services** selected.
+
+        **Note:** The **Complete release** button is not available on the individual section pages when a primary product or included product or service is selected.
+
+
+## Result
+
+The release is closed and its state is updated to Completed.
+
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
+

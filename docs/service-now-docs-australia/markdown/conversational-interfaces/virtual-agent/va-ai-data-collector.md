@@ -1,0 +1,118 @@
+---
+title: Input Collector user input control
+description: Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-ai-data-collector.html
+release: australia
+product: Virtual Agent
+classification: virtual-agent
+topic_type: reference
+last_updated: "2026-08-27"
+reading_time_minutes: 3
+keywords: [Virtual Agent, Designer, Input Collector, User input, control, node, LLM, ServiceNow Otto, Large Language Model]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+---
+
+# Input Collector user input control
+
+Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
+
+## Input Collector demonstration
+
+For an example of the Input Collector from a user perspective, watch this video.
+
+\[Omitted video\] Description: Input Collector user input control video
+
+## Input Collector properties
+
+The Input Collector is only available for topics that use LLM discovery.
+
+The Input Collector can hold up to 5 of any of the LLM user inputs aside from another Input Collector. To collect more than 5 user inputs, place multiple Input Collector nodes in sequence or adjust the Value of the **com.glide.cs.va\_input\_collector\_max\_nodes** property in the System Properties \[sys\_properties\] table.
+
+You can reorder nodes inside the Input Collector on both the canvas and table views. To reorder nodes on the canvas, select a given node inside the Input Collector and drag it up or down in the list. You can add or remove nodes from an Input Collector, or nodes between multiple Input Collectors, by selecting a node and dragging it into or out of an Input Collector node on the canvas. To reorder nodes in an Input Collector in the table view, select a given node in the list, then select the up or down arrow next to the node.
+
+You can also set the number of times the Input Collector prompts a user for information before triggering a search instead. You can set the limit under **sn\_vad\_genai.input\_collector\_reprompt\_limit** in the System Properties \[sys\_properties\] table. The minimum limit is 1, and the default limit is 2. With values greater than 2, the Input Collector reprompts the user up to the set limit before starting a search. If you use very high values \(such as 1000\), you effectively disable automatic searches, and continue collecting information through additional reprompts.
+
+Specify the flow action properties for the node that you want to create.
+
+<table id="ai-data-collector-properties-sheet-table"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Node name
+
+</td><td>
+
+Name that identifies this node in the topic flow.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Advanced
+
+</td></tr><tr><td>
+
+Additional instructions for LLM
+
+</td><td>
+
+Further instructions to the LLM, such as adding data formats, restrictions, or default values for user responses. You can create additional instructions in plain language, input a script, or define conditions with the data pill picker.
+
+</td></tr><tr><td>
+
+Confirmation message
+
+</td><td>
+
+Toggle switch to display a summary of collected inputs to the user at the end of a conversation. If Summary message is activated, the Virtual Agent \(when activated\) presents the information that you have entered and asks if everything is correct. Select **Yes** to continue the chat or **No** to restart collecting user input. You can also reply by typing a response in the chat window, to confirm or deny the summary or to change your answer. This option is active by default, and shows an enabled icon \[Omitted image "bluecheck.png"\] Alt text: when activated.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Hide or skip this node
+
+</td></tr><tr><td>
+
+Conditionally show this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
+
+</td></tr><tr><td>
+
+Allow user to skip this node if
+
+</td><td>
+
+No-code condition statement or low-code script that specifies a condition for letting users skip this node in the conversation. The condition must evaluate to true. You can set this field using either the condition builder or a script.
+
+</td></tr></tbody>
+</table>## Example Input Collector capability
+
+\[Omitted image "ai-data-collector-properties.png"\] Alt text: Basic properties include the node name. Advanced options include Additional instructions to LLM, Confirmation messages, and Hide this node.
+
+## Input Collector canvas view
+
+\[Omitted image "input-collector-canvas-view.png"\] Alt text: Input collector canvas view, holding text and static choice input nodes. You can move nodes by selecting and dragging them inside, out of, or within the Input collector.
+
+## Input Collector table view
+
+\[Omitted image "input-collector-table-view.png"\] Alt text: Input collector table view, showing text and static choice nodes, with up and down arrows to reorder nodes inside the collector.
+
+## Channel support
+
+|Channel|Support|Constraints|
+|-------|-------|-----------|
+|Microsoft Teams|Supported|None|
+|Slack|Not supported|Not applicable|
+|SMS Twilio|Supported|Not applicable|
+|WhatsApp|Not supported|Not applicable|
+|Google Chat|Supported|None|
+
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+

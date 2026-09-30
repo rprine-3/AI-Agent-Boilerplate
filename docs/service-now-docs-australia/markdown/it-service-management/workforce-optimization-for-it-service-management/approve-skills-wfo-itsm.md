@@ -1,0 +1,51 @@
+---
+title: Approve or reject a skill review request
+description: Review skills when your team updates their skill proficiencies and requests approval. You can approve or reject each of those skills. The skills that you approve are added to the agent's profile.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/approve-skills-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Skills Management, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Approve or reject a skill review request
+
+Review skills when your team updates their skill proficiencies and requests approval. You can approve or reject each of those skills. The skills that you approve are added to the agent's profile.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_wfo\_skillreview.manager
+
+## About this task
+
+You will receive a notification when an agent in your assignment group submits a skill review request.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
+
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
+
+3.  Select the **Assessments** tab.
+
+4.  Select **Skill review requests** &gt; **Pending manager review**.
+
+5.  Select an agent to approve or reject the skills.
+
+    In the **Comments** field, you can add a comment for approving or rejecting the skill.
+
+    -   To approve one or more skills, select the skills and select **Approve**. You can also select **Approve All** to approve all skills.
+    -   To reject one or more skills, select the skills and select **Reject**. You can also select **Reject All** to reject all skills.
+6.  Select **Complete**.
+
+    The skills you've approved gets added to the agent's skill set.
+
+
+**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
+

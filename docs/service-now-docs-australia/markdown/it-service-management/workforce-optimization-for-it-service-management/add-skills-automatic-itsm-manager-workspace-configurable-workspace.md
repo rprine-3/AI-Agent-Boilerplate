@@ -1,0 +1,55 @@
+---
+title: Automatically add skills to incidents or interactions in Workforce Optimization for ITSM
+description: Define conditions for incidents or interactions and add skills required for those conditions using skill determination rules. When new incidents and interactions that are created meet these conditions, the skill determination business rule automatically adds the skills to those records. In the Workforce Optimization for ITSM Channels and Work scheduler applications, the work items get automatically assigned to the right agents based on the skills.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Routing work based on skills, Skills Management, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Automatically add skills to incidents or interactions in Workforce Optimization for ITSM
+
+Define conditions for incidents or interactions and add skills required for those conditions using skill determination rules. When new incidents and interactions that are created meet these conditions, the skill determination business rule automatically adds the skills to those records. In the Workforce Optimization for ITSM Channels and Work scheduler applications, the work items get automatically assigned to the right agents based on the skills.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: skill\_admin
+
+## About this task
+
+The following business rules are used in Workforce Optimization for ITSM skill determination:
+
+-   **Skill determination for incident** evaluates new incidents for the conditions defined in the skill determination rules set for all incidents and adds those skills to the incident records.
+-   **Skill determination for interaction** evaluates new interactions for the conditions defined in the skill determination rules set for all interactions and adds those skills to the interaction records.
+
+The table below shows the skill determination rules available for Workforce Optimization for ITSM.
+
+**Note:** To add language detection skills, you must set dynamic translation APi. for more information, see [Dynamic Translation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dyn-translation-apis.md).
+
+|Skill Determination Rule|Source Table|Type|Description|
+|------------------------|------------|----|-----------|
+|Language Detection Incident|Incident \[incident\]|Advanced|The business rule evaluates new incidents for the language entered in the incident short description and adds that language as a required skill for those incidents.|
+|Language Detection Interaction|Interaction \[interaction\]|Advanced|The business rule evaluates new interactions for the language entered in the interaction short description and adds that language as a required skill for those interactions.|
+|SAP Skills|Incident \[incident\]|Simple|The business rule evaluates new incidents for the **Service** field that starts with 'SAP', 'sap', or 'Sap' and adds **SAP** and **Backoffice** skills as required skills for those incidents.|
+|VPN Incident|Incident \[incident\]|Simple|The business rule evaluates new incidents for the **Short description** field that contains 'VPN', 'vpn', or 'Vpn' and adds **Router and Switch** and **Network** skills as required skills for those incidents.|
+|VPN Interaction|Interaction \[interaction\]|Simple|The business rule evaluates new interactions for the **Short description** field that contains 'VPN', 'vpn', or 'Vpn' and adds **Router and Switch** and **Network** skills as required skills for those incidents.|
+|Windows|Incident \[incident\]|Simple|The business rule evaluates new incidents for the **Configuration item** field that contains 'Windows', 'windows', or 'WINDOWS' and adds **Windows Installation/Setting** and **Windows Servers** skills as required skills for those incidents.|
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Skills** &gt; **Skill Determination Rules**.
+
+2.  Add the desired rule for an incident or an interaction.
+
+    For information, see [Create Skill Determination rules to assign skills to work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/conf-simple-skill-determination-rule.md).
+
+
+**Parent Topic:**[Routing work based on skills in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/skill-determination-configurable-wfo-itsm.md)
+

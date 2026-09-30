@@ -1,0 +1,47 @@
+---
+title: Assign a work order task
+description: Assign agents to unassigned work order tasks using the Dispatcher Workspace map.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/t\_AssignATask.html
+release: australia
+product: Field Service Scheduling
+classification: field-service-scheduling
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+---
+
+# Assign a work order task
+
+Assign agents to unassigned work order tasks using the Dispatcher Workspace map.
+
+## Before you begin
+
+Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
+
+2.  Select **Dispatcher Workspace**.
+
+3.  Select **Schedule**.
+
+4.  Select **Map** or **Hybrid**.
+
+5.  Right-click an unassigned task in the map.
+
+6.  Select **Assign**.
+
+    \[Omitted image "assign-task.png"\] Alt text: assign task pop up
+
+7.  In the **Assigned to** field, select the agent available to work on the task.
+
+8.  Select **Save**.
+
+
+## Result
+
+The customer receives a text message and email notification that the work order task is assigned.
+

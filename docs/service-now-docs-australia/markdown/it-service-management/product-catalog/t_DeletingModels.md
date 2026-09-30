@@ -1,0 +1,35 @@
+---
+title: Delete models
+description: If a model is no longer needed, you can delete it as long as no assets or configuration items use the model.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_DeletingModels.html
+release: australia
+product: Product Catalog
+classification: product-catalog
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
+---
+
+# Delete models
+
+If a model is no longer needed, you can delete it as long as no assets or configuration items use the model.
+
+## Before you begin
+
+Role required: model\_manager
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Model** &gt; **All Models**.
+
+2.  Select the check box beside the product model.
+
+3.  From the **Actions** choice list below the list, select **Delete**.
+
+4.  Click **OK**.
+
+
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+

@@ -1,0 +1,43 @@
+---
+title: Create a page for Configurable Portal widgets
+description: Create a page into which you can add Configurable Portal widgets.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.html
+release: australia
+product: Customer Self-service and Omnichannel Engagement
+classification: customer-self-service-and-omnichannel-engagement
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+---
+
+# Create a page for Configurable Portal widgets
+
+Create a page into which you can add Configurable Portal widgets.
+
+## Before you begin
+
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+
+Role required: sp\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Service Portal Configuration**.
+
+2.  Select **Designer**.
+
+3.  On the Service Portal Designer page, select **Add a new Page**.
+
+4.  Enter the text for the page title.
+
+5.  Enter an ID for the page that does not include spaces or any special character except for an underscore.
+
+6.  Select **Submit**.
+
+
+## Result
+
+The page is created in the Service Portal Designer.
+

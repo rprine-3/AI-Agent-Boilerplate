@@ -1,0 +1,41 @@
+---
+title: Enable the asset put away task for your stockroom in the Enterprise Asset Workspace
+description: Enable the Asset put away feature for your stockroom so that the Asset put away task is automatically created to track asset movement.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enable-putaway-task-for-stockroom-eam.html
+release: australia
+product: Enterprise Asset Management
+classification: enterprise-asset-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Putting away enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
+---
+
+# Enable the asset put away task for your stockroom in the Enterprise Asset Workspace
+
+Enable the Asset put away feature for your stockroom so that the Asset put away task is automatically created to track asset movement.
+
+## Before you begin
+
+Role required: inventory\_user
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Inventory**.
+
+2.  Select the **All stockrooms** tab.
+
+3.  From the list of available stockrooms, select the stockroom for which you want to enable the Asset pick task and Asset put away task.
+
+4.  On the Stockroom Details form, select the **Warehouse tasks required** check box.
+
+5.  Select **Save**.
+
+
+## Result
+
+The inventory user can perform asset put away for in stock assets in the stockroom.
+
+**Parent Topic:**[Manage asset put away using the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
+

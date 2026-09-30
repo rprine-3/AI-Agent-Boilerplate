@@ -1,0 +1,33 @@
+---
+title: Configure the Case list for B2B2C
+description: Enable account consumers to view the Account, Contact, and Consumer fields for the customer self-service view.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-b2b2c-data-model-case-list.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
+---
+
+# Configure the Case list for B2B2C
+
+Enable account consumers to view the **Account**, **Contact**, and **Consumer** fields for the customer self-service view.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Customer Service** &gt; **Cases** &gt; **All**.
+
+2.  Select **View** &gt; **Customer Self Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: additional action menu.
+
+3.  Select the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
+
+4.  Select the Account, Contact, and Consumer fields in the **Available** column and move them to the **Selected** column.
+
+5.  Select **OK**.
+
+

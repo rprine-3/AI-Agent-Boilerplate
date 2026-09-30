@@ -1,0 +1,145 @@
+---
+title: View financial summary of cost and monetary benefit plans
+description: View a breakdown of the cost and benefit components of a demand to track the financials of your demands. The financial summary enables you to assess the progress of the demand and track financial changes and their impact on the demand over a period.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/view-financial-summary-demand.html
+release: australia
+product: Demand Management
+classification: demand-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# View financial summary of cost and monetary benefit plans
+
+View a breakdown of the cost and benefit components of a demand to track the financials of your demands. The financial summary enables you to assess the progress of the demand and track financial changes and their impact on the demand over a period.
+
+## Before you begin
+
+Role required: it\_demand\_manager
+
+## About this task
+
+View a detailed breakdown of the cost components of a demand using the **Financial Summary** tab. The total planned cost, budget cost, actual cost, and planned returns with their breakdowns are displayed in the form of read-only cards. The cost plans, benefit plans, and their breakdowns are provided in an editable grid view.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **All**.
+
+2.  Open a demand.
+
+3.  On the Demand form, select the **Cost Plans** or **Monetary Benefit Plans** related list.
+
+4.  Select **Manage**.
+
+5.  Add additional fields, view plan details, or reorganize the financial data.
+
+<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d259834e109">
+
+Action
+
+</th><th align="left" id="d259834e112">
+
+Steps
+
+</th></tr></thead><tbody><tr><td id="d259834e118">
+
+**Create a baseline or compare available baselines**
+
+</td><td>
+
+Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-baseline.md).
+
+</td></tr><tr><td id="d259834e145">
+
+**Create a cost plan or benefit plan for the demand**
+
+</td><td>
+
+In the **Cost Plans** or **Benefits Plans** tab, select **New**.
+
+</td></tr><tr><td id="d259834e163">
+
+**View a cost plan or benefit plan details in a form**
+
+</td><td>
+
+Select the information icon \[Omitted image "new-info-icon-coral.png"\] Alt text: available in the **Name** column of the grid.
+
+</td></tr><tr><td id="d259834e180">
+
+**View a cost plan or benefit plan details in yearly, quarterly, or monthly format**
+
+</td><td>
+
+Select the **Year**, **Quarter**, or **Month** views respectively.You can also edit the breakdown values of a cost plan or benefit plan without opening the plan in a form. Inline edit is available only in the **Monthly** view.
+
+</td></tr><tr><td id="d259834e205">
+
+**Toggle the widgets on the __Financial Summary__ section or add more fields**
+
+</td><td>
+
+1.  Select the widgets icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and then select the **Show Widgets** option.
+2.  Select additional fields to show, clear them to hide.
+
+**Note:**
+
+    -   By default, all the fields are selected.
+    -   The selected field preferences are saved and are available when you reopen the **Financial Summary** tab.
+    -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, additional fields are available: Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
+
+
+</td></tr><tr><td id="d259834e250">
+
+**Show or hide columns in the grid**
+
+</td><td>
+
+Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and select the field names.**Note:** You can’t hide the grouped columns.
+
+</td></tr><tr><td id="d259834e267">
+
+**Reset to the default grid column layout**
+
+</td><td>
+
+Select **Reset to defaults**.
+
+</td></tr><tr><td id="d259834e279">
+
+**Export financial information**
+
+</td><td>
+
+Select **Export to csv**.
+
+</td></tr><tr><td id="d259834e291">
+
+**View the demand costs and benefits in demand currency**
+
+</td><td>
+
+1.  Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text:.
+2.  Select additional fields to show demand currency amounts.
+
+**Note:** If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields.
+
+ You can view both the functional and demand currencies in the currency indicator.
+
+ The Financial Summary grid view includes demand currency column heads on the cost plan and benefit plan tabs. These include **Cost in demand currency** and **Demand currency**.
+
+</td></tr><tr><td id="d259834e328">
+
+**View details of an item in the grid**
+
+</td><td>
+
+Select the expand icon \[Omitted image "new-expand-icon.png"\] Alt text:or collapse icon \[Omitted image "new-collapse-icon.png"\] Alt text:.
+
+</td></tr></tbody>
+</table>
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+

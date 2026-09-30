@@ -1,0 +1,48 @@
+---
+title: Search the customer service community
+description: Use the customer service portal to search the community site or view a list of recent discussion topics.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SearchTheCommunity.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Search for information, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
+---
+
+# Search the customer service community
+
+Use the customer service portal to search the community site or view a list of recent discussion topics.
+
+## Before you begin
+
+Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin, sn\_customerservice.partner, or sn\_customerservice.partner\_admin
+
+## Procedure
+
+1.  Navigate to the customer service portal.
+
+2.  Select **Ask the Community**.
+
+    This brings up the Ask a Question page.
+
+3.  Enter a question in the **Title** field.
+
+4.  Select a knowledge base in the **Knowledge Base** field.
+
+5.  If desired, select a category in the **Category** field.
+
+6.  If desired, add one or more tags to your question in the **Tags** field.
+
+7.  Select **Post Question**.
+
+    The question appears on the search results page under the **Questions** category.
+
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThePortal.md)
+

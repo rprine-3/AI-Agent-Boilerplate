@@ -1,0 +1,116 @@
+---
+title: Create a resource card
+description: Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rmw-create-rsrc-card.html
+release: australia
+product: Resource Management
+classification: resource-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Create a resource card
+
+Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
+
+## Before you begin
+
+Role required: resource\_user, resource\_manager, it\_project\_manager
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
+
+2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu.
+
+3.  Select the **New Resource Card** button \(\[Omitted image "rmw-new-resource-card-button.png"\] Alt text: New Resource Card button.\).
+
+4.  Enter the following details.
+
+<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d174468e95">
+
+Field
+
+</th><th align="left" id="d174468e98">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d174468e104">
+
+**Name**
+
+</td><td>
+
+Unique name for the filter card.Name the resource card inline with the purpose and filter condition to easily identify and access your view.
+
+</td></tr><tr><td id="d174468e115">
+
+**Filter by**
+
+</td><td>
+
+-   Resource - filter and view resources by their primary planning attributes.
+-   Work type - filter and view resources working on a demand, project, or an epic and their respective details.
+
+
+</td></tr><tr><td id="d174468e133">
+
+**Start Date**
+
+</td><td>
+
+Select the start date in the required date range to view resources.
+
+</td></tr><tr><td id="d174468e142">
+
+**End Date**
+
+</td><td>
+
+Select the end date in the required date range to view resources.
+
+</td></tr><tr><td id="d174468e152">
+
+**Description**
+
+</td><td>
+
+Enter a description explaining your resource card view.
+
+</td></tr></tbody>
+</table>    By default, the date range is set to six months from today's date. Maximum date range is 3 years from the selected start date.
+
+5.  Select **Next**.
+
+6.  Create filter condition to view a custom set of resources.
+
+    Resource Card filters work differently than list views. When you apply a filter on a Resource Card \(for example, filtering by Work type\), the system identifies users who have resource assignments matching the filter criteria. The card then displays all resource assignments for those users, including Project, Demand, and Operational assignments — not just assignments of the filtered type. To display only specific assignment types \(for example, only Demand-related assignments\), apply an additional filter in the Resource Management Workspace by filtering explicitly by Type.
+
+    The default condition is set to show all active users.
+
+    **Tip:** Save a filter condition using the **Save filter** option \(\[Omitted image "rmw-save-filter.png"\] Alt text: Save filter button.\) and name the filter to easily identify it later. Next time you create a resource card, you can select one of your saved filters from the **Use existing filter** list and customize it further.
+
+7.  Select **Confirm**.
+
+    \[Omitted image "rmw-create-resource-card-gif.gif"\] Alt text: GIF showing how to enter name and select the date range to create a resource card.
+
+    **Note:** You can edit the card details and filter condition using the edit icon \(\[Omitted image "rmw-edit-icon.png"\] Alt text: Right inclined pencil icon representing edit functionality.\) on the resource board.
+
+
+## Result
+
+A resource board view with the list of resources matching the filter condition with their work allocations, projects they're working on, and the assignment status is displayed.
+
+\[Omitted image "rmw-rsrc-portfolio-view-top-tray.png"\] Alt text: Resource Portfolio view depicting resource allocations in various states.
+
+## What to do next
+
+Enable the **Unassigned tasks** toggle and build a filter condition to view unassigned tasks in the Unassigned tasks bottom tray.
+
+For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-rmw.md).
+
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+

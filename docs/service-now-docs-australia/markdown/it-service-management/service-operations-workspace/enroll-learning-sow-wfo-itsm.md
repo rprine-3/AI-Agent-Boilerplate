@@ -1,0 +1,69 @@
+---
+title: Enroll in Learning to take a learning course or complete a learning path
+description: When you enroll in a learning course or learning path, the application creates a learning task. You can track the progress of the course or path using the learning task.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/enroll-learning-sow-wfo-itsm.html
+release: australia
+product: Service Operations Workspace
+classification: service-operations-workspace
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Learning path and course item discovery in Service Operations Workspace, Service Operations Workspace - Learning, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+---
+
+# Enroll in Learning to take a learning course or complete a learning path
+
+When you enroll in a learning course or learning path, the application creates a learning task. You can track the progress of the course or path using the learning task.
+
+## Before you begin
+
+Role required: sn\_wfo\_cfg\_itsm.employee
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  Select the Learning icon \[Omitted image "coaching-icon-uib.png"\] Alt text: Learning icon.
+
+3.  Select the **Discover** tab.
+
+<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d241980e99">
+
+To enroll in a course or a path by browsing
+
+</th><th align="left" id="d241980e102">
+
+Do this
+
+</th></tr></thead><tbody><tr><td id="d241980e108">
+
+**The full catalog**
+
+</td><td>
+
+Enter a name or a description in the search field.**Note:** You can also narrow down the display of courses based on the following fields:
+
+-   Type—course or a path
+-   Skill—skill associate with the course or path
+-   Source—internal or external
+-   Time to complete—estimated duration to complete the course or path
+-   State—completed, in-progress, or unassigned or not enrolled
+
+
+</td></tr><tr><td id="d241980e137">
+
+**Recommended learning**
+
+</td><td>
+
+Select **Browse recommended learning**. The content is grouped into different categories. For more information, see [Recommendation grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
+
+</td></tr></tbody>
+</table>4.  Select a course or a path in which you'd like to enroll.
+
+5.  Select **Enroll**.
+
+
+**Parent Topic:**[Learning path and course item discovery in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/discovering-learning-sow-wfo-itsm.md)
+

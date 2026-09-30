@@ -1,0 +1,585 @@
+---
+title: Combined Threat Intelligence Security Center release notes for upgrades from Yokohama to Australia
+description: Consolidated page of all release notes for Threat Intelligence Security Center from Yokohama to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-threatintelligencesecuritycenter-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Products combined by family]
+---
+
+# Combined Threat Intelligence Security Center release notes for upgrades from Yokohama to Australia
+
+Consolidated page of all release notes for Threat Intelligence Security Center from Yokohama to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Threat Intelligence Security Center release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Threat Intelligence Security Center to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Threat Intelligence Security Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Microsoft Defender for EDR integration](https://www.servicenow.com/docs/access?context=tisc-ms-defender-integration&family=yokohama&ft:locale=en-US)**
+
+Integration with the Microsoft Defender for EDR allows Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs to Microsoft Defender for continuous monitoring and real-time alerting.
+
+-   **[Create a security incident from a TISC case](https://www.servicenow.com/docs/access?context=tisc-create-si-case&family=yokohama&ft:locale=en-US)**
+
+Create security incidents and associate observables to the security incidents from a TISC case.
+
+-   **[Duplicate threat intelligence feeds](https://www.servicenow.com/docs/access?context=tisc-duplicate-feeds&family=yokohama&ft:locale=en-US)**
+
+Duplicate threat intelligence feeds to create an exact copy of the existing feed.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Configuring Threat Intelligence External Sharing](https://www.servicenow.com/docs/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
+
+Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
+
+
+ -   **[Configure report templates](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
+
+Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
+
+
+ -   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
+
+Import events, attributes, and objects from the MISP server into the Threat Intelligence Library.
+
+
+ -   **[Configure Custom Event Types for Timeline](https://www.servicenow.com/docs/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
+
+Define, visualize, and manage timeline events associated with nodes through the Investigation Canvas.
+
+
+ -   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
+
+Include optional attributes during configuration that can be stored in the Splunk KV Store.
+
+-   **[Configure Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
+
+Map CrowdStrike Indicator Malicious confidence to TISC confidence.
+
+-   **[View Threat Intel Feeds](https://www.servicenow.com/docs/access?context=base-system-threat-intel-feeds&family=zurich&ft:locale=en-US)**
+
+Map specific source values to required observable fields during import process.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Threat Intelligence Security Center features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Courses of Action](https://www.servicenow.com/docs/access?context=course-of-action&family=yokohama&ft:locale=en-US)**
+
+Renamed Course of Actions to Courses of Action.
+
+-   **[Create Inbound Data Exclusion Rules](https://www.servicenow.com/docs/access?context=define-filtering-rules&family=yokohama&ft:locale=en-US)**
+
+Renamed Inbound Filtering Rules to Inbound Data Exclusion Rules.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+
+Introduced **Add From Internal Intelligence** option to include the data from the internal systems.
+
+
+ -   **[Define an Observable](https://www.servicenow.com/docs/access?context=define-an-observable&family=zurich&ft:locale=en-US)**
+
+Introduced a notice when deleting an observable record to help prevent accidental removal of its associated source records.
+
+
+ -   **[Configure Custom Field Mapping](https://www.servicenow.com/docs/access?context=tisc-field-mapping&family=zurich&ft:locale=en-US)**
+
+The list view has been replaced with a code editor in the Sample data \(Input\) section of the field mapping, preserving the original structure and formatting of raw data.
+
+
+ -   **[Creating an investigation canvas](https://www.servicenow.com/docs/access?context=tisc-create-canvas&family=zurich&ft:locale=en-US) Clear canvas button**
+
+A **Clear canvas** button to clear the canvas permanently removes all nodes from the investigation canvas.
+
+
+ -   **[Manage Techniques](https://www.servicenow.com/docs/access?context=tisc-manage-techniques&family=zurich&ft:locale=en-US)**
+
+Introduced Priority levels and TISC Tags to categorize and tag MITRE Techniques more effectively.
+
+
+ -   **[Components installed with Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-components-installed&family=zurich&ft:locale=en-US)**
+
+Introduced a new system property to configure the default Traffic Light Protocol \(TLP\) level.
+
+
+ -   **[Import data using structured file](https://www.servicenow.com/docs/access?context=import-data-using-structured-file&family=zurich&ft:locale=en-US)**
+
+Introduced an **Add Observable\(s\) to Security Control List** drop-down list to enable the importing of Allow listed observables directly through Import Intelligence.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+
+Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
+
+
+ -   **[Import Intelligence in TISC](https://www.servicenow.com/docs/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
+
+Enhanced the Import Intelligence functionality to support direct import of allow list observables.
+
+-   **[Working with Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-investigation-canvases&family=zurich&ft:locale=en-US)**
+
+The Investigation Canvas feature has been extended to include customized nodes, node relationships, and node legends, as well as the grouping and ungrouping of nodes.
+
+-   **[Investigation canvas and MITRE ATT&amp;CK](https://www.servicenow.com/docs/access?context=investigation-and-mitre&family=zurich&ft:locale=en-US)**
+
+Navigate and use the MITRE-ATT&amp;CK model within the Investigation Canvas more effectively by taking advantage of enhanced filtering options.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Threat Intelligence Security Center features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Threat Intelligence Security Center features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Threat Intelligence Security Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=yokohama&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Threat Intelligence Security Center, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Threat Intelligence Security Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Integrate with Microsoft Defender to enable Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs from TISC to Microsoft Defender.
+-   Added creation of security incident directly from a TISC case with an option to associate observable artifacts to the security incident.
+-   Enhanced support to export observables, indicators, and cases from the list views in STIX 2.1 JSON, CSV, and Excel formats.
+-   Added settings to ingest indicators of interest based on associations to threat actors, threat reports, or malware families, including an option to include indicators deleted on CrowdStrike.
+-   Improved Threat Intelligence Feed configuration functionality to create a duplicate copy of the existing feed.
+
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   External sharing is now generally available, allowing secure and automated sharing of threat intelligence in STIX 2.1 and MISP formats.
+-   Redesigned the Investigation Canvas with activity timelines, added internal intelligence, improved node design and interactions, enhanced related records to retrieve all the associated records, and upgraded the MITRE card with filter capabilities for a smoother experience.
+-   Introduced the ability to import events directly from the MISP server.
+-   Implemented a unified mapping experience for the text based feeds such as TEXT, CSV, and JSON import formats.
+-   Implemented confidence mapping for the CrowdStrike \(CS\) Feed as part of additional settings. You can now map the malicious confidence levels of CrowdStrike indicators to the observable confidence values.
+
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Threat Intelligence Security Center \(TISC\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Introduced AI-generated threat intelligence reports from case data with analyst-guided instructions.
+-   Introduced AI-generated case summarization that analysts can use to generate concise case summaries.
+-   Added playbooks support in Case Management, giving analysts a guided, stage-based workflow for investigations.
+-   Added historical data ingestion and flexible expiration handling to TISC Add-on for Splunk Enterprise. 
+-   Enhanced MITRE Extraction rule schema to add a combined Techniques and Tactics regex extraction type.
+-   Enhanced Relationship Graph with filtering support and performance improvements.
+-   Enhanced CrowdStrike feed to support ingestion of malwares.
+
+ See [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-yokohama-australia/rn-combined-intro.md)
+

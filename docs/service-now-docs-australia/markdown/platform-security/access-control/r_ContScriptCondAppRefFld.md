@@ -1,0 +1,43 @@
+---
+title: Apply ACL script conditions to reference fields
+description: Use the glide.sys\_reference\_row\_check system property to enable scripted conditions for reference fields.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_ContScriptCondAppRefFld.html
+release: australia
+product: Access Control
+classification: access-control
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
+---
+
+# Apply ACL script conditions to reference fields
+
+Use the **glide.sys\_reference\_row\_check** system property to enable scripted conditions for reference fields.
+
+The default behavior is intended to improve instance performance. If you want to enable script conditions for reference fields, add the following system property.
+
+**Note:** For more information on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+<table id="table_vf1_5ff_2r"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+glide.sys\_reference\_row\_check
+
+</td><td>
+
+Controls whether the script conditions of Access Control Rules apply to a table's reference fields.-   Type: true \| false
+-   Default value: **false**
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table
+
+</td></tr></tbody>
+</table>**Note:** If the **glide.sys\_reference\_row\_check** system property is not present, or has been set to false, script conditions for Access Control Rules are not applied. This means an ACL containing scripted conditions will pass it's check as long as the other ACL criteria are met \(such as role requirements\).
+

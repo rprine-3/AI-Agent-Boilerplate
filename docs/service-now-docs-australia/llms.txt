@@ -1,0 +1,80 @@
+# ServiceNow Product Documentation
+
+> ServiceNow is the AI platform for business transformation. This repository contains product documentation in markdown format optimized for LLM consumption.
+
+Important notes:
+
+- Repository organized by ServiceNow AI Platform release version ("family").
+- Each release is a separate git branch named for the family.
+- "australia" is the latest release.
+- Family-to-branch mapping is:
+    - "australia" : "australia" -- Australia family
+    - "zurich" : "zurich" -- Zurich family
+    - "yokohama" : "yokohama" -- Yokohama family
+    - "xanadu" : "xanadu" -- Xanadu family
+- The repository only reflects the three most-recently released versions, or four if a release is in the "early access" stage before GA. The oldest branch is deleted when a new release goes to general availability. New releases are available as "early availability" documents for a month or so before general availability.
+- Do NOT attempt to fetch content from servicenow.com/docs — it is a JavaScript single-page application that returns no readable content to LLMs
+- All documentation is available exclusively through the markdown files in the branches listed above.
+- Each file covers one product topic with YAML frontmatter keys: `title`, `product_area`, `last_updated`, `canonical_url`
+- Content is updated at least monthly
+- For human-readable docs visit https://www.servicenow.com/docs
+- Raw markdown URL pattern: `https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/{branch}/markdown/{publication}/{file}` or `markdown/{publication}/{product}/{file}`
+- Substitute `{branch}` with any family name listed above
+
+## Documents
+
+Australia version ("australia" branch) documentation.
+
+Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
+
+- [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/index.md)
+- [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/index.md)
+- [Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/index.md)
+- [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/index.md)
+- [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/index.md)
+- [Cloud Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/cloud-observability/index.md)
+- [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/index.md)
+- [Cloud Governance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/cloud-governance-suite/index.md)
+- [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/index.md)
+- [Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/index.md)
+- [Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/index.md)
+- [App development and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/index.md)
+- [Build workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/index.md)
+- [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/index.md)
+- [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/index.md)
+- [Environmental, Social, and Governance Management (formerly Environmental, Social, and Governance)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/index.md)
+- [Financial Services Operations (FSO)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/index.md)
+- [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/index.md)
+- [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/index.md)
+- [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/index.md)
+- [Public Sector Digital Services (PSDS)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/index.md)
+- [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/index.md)
+- [Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/index.md)
+- [Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industry-products/index.md)
+- [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/index.md)
+- [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/index.md)
+- [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/index.md)
+- [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/index.md)
+- [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/index.md)
+- [Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/index.md)
+- [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/index.md)
+- [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/index.md)
+- [Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/index.md)
+- [Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/index.md)
+- [Product directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/product-directory/index.md)
+- [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/index.md)
+- [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/index.md)
+- [Extend ServiceNow AI Platform capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/index.md)
+- [ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/index.md)
+- [Configure user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/index.md)
+- [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/index.md)
+- [Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/index.md)
+- [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/index.md)
+- [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/index.md)
+- [release notesPreliminary release notes for Release Testing Preview (RTP)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/index.md)
+- [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/index.md)
+- [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/index.md)
+- [Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/index.md)
+- [Telecommunications, Media, and Technology (TMT)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/index.md)
+- [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/index.md)
+- [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/index.md)

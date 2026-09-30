@@ -1,0 +1,302 @@
+---
+title: Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM
+description: The CMDB success advisor for HAM dashboard enables CMDB administrators to identify and address data quality issues specific to HAM in the Configuration Management Database \(CMDB\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.html
+release: australia
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+keywords: [HAM dashboard metrics, CMDB data quality monitoring, CIs missing model data, CI data quality issues, CI and asset related issues, dashboard model category filters]
+breadcrumb: [Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+---
+
+# Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM
+
+The CMDB success advisor for HAM dashboard enables CMDB administrators to identify and address data quality issues specific to HAM in the Configuration Management Database \(CMDB\).
+
+**Important:** Charts display up to the top 10 values. Any remaining values are grouped into an **Others** category. When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) and [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-remediation.md).
+
+\[Omitted image "cmdb-sa-ham-dashboard.png"\] Alt text: CMDB success advisor for HAM dashboard overview.
+
+**Note:** If the Performance Analytics data collector exceeds its row limit during data processing, a notification banner appears on the dashboard indicating that some metrics could not be loaded. For more information, see [Data collector Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dc-props.md).
+
+## Access the dashboard
+
+To open the dashboard, select **View insights** for HAM on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md). The dashboard displays a **Last updated** timestamp reflecting the completion time of the most recent HAM data collector job run.
+
+**Note:** The CMDB success advisor for HAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-config-settings.md).
+
+## Required roles
+
+|Role|Description|
+|----|-----------|
+|sn\_cmdb\_admin|Required to access the dashboard.|
+|sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data, including the AI-generated summary of the dashboard.|
+|sn\_cmdb\_editor|Provides the same dashboard access as sn\_cmdb\_user, with write access on CMDB records outside the application.|
+
+## Use cases
+
+For examples of how different people in your organization would use this dashboard, see these use cases.
+
+<table id="table_lnc_zz1_2gc"><thead><tr><th>
+
+User
+
+</th><th>
+
+Dashboard use
+
+</th></tr></thead><tbody><tr><td>
+
+CMDB administrator
+
+</td><td>
+
+-   Gain real-time visibility into hardware asset data quality and completeness
+-   Identify missing or incorrect CI attributes quickly
+-   Detect duplicate CIs and unlinked assets
+-   Monitor asset life cycle status \(installed, retired, inactive\)
+-   Prioritize and track data cleanup and remediation tasks
+-   Verify that the CMDB stays accurate to support HAM
+
+</td></tr></tbody>
+</table>## Dashboard features
+
+The dashboard provides clear, consolidated insights into hardware asset data quality and asset status. Use the dashboard to identify and resolve data quality issues within the CMDB through dedicated sections, filters, indicators, and visual reports. Gain valuable insights into CMDB performance related to HAM.
+
+Targeted CMDB metrics focus remediation efforts. Regularly monitor these metrics and follow suggested remediation actions to systematically improve CMDB data quality over time.
+
+**Important:** The dashboard data is filtered based on the Selected model categories and Date range filters. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md).
+
+<table><thead><tr><th>
+
+Feature
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+CMDB data quality insights generated by AI
+
+</td><td>
+
+Displays an AI-generated summary of CMDB data quality for HAM outcomes and lists the top 5 issues with guided remediation actions.Issues are ranked primarily by the percentage of CIs or CI classes that each issue affects, not by severity, within five categories, in this order: **Data integrity**, **CI attributes**, **CI-asset relationships**, **Business rules**, and **Data Manager policies**. Foundational data integrity issues, such as duplicate CIs and stale CIs, are evaluated first because they can inflate the counts behind other issues.
+
+A percentage gap of more than 15 points between issues in the same category can change their default order. A percentage gap of more than 40 points between issues in different categories can also change their default order. For the reasoning behind the ranking and recommendations, see [Summarize CMDB readiness with the ServiceNow Otto skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md).
+
+Select **View reasoning** to open the Reasoning popover, which explains the ranking and includes a **Learn more** link to the same topic.
+
+**Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-config-summ-rdy.md).
+
+</td></tr><tr><td>
+
+CIs by normalization status
+
+</td><td>
+
+Displays the breakdown of operational CIs by HAM normalization status to indicate how much of the CMDB is normalized against the hardware product model catalog.
+
+</td></tr><tr><td>
+
+CIs by model category
+
+</td><td>
+
+Displays the breakdown of operational CIs by associated model category to highlight CI distribution in the CMDB.
+
+</td></tr><tr><td>
+
+CIs by data integration source
+
+</td><td>
+
+Displays the breakdown of operational CIs by data integration source to highlight their contribution to CMDB population.
+
+</td></tr><tr><td>
+
+[CIs missing model data and other key attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to CIs missing model details, ownership, and other key attributes, leading to incomplete records and operational inefficiencies.
+
+</td></tr><tr><td>
+
+[CI data quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to CIs that have not been updated or may have duplicate records, leading to outdated information and inconsistencies in the CMDB.
+
+</td></tr><tr><td>
+
+[CI and asset-related issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md)
+
+</td><td>
+
+Displays key metrics related to mismatches and missing links between CIs and assets, leading to incomplete asset life cycle tracking and reporting issues.
+
+</td></tr></tbody>
+</table>## Filters
+
+Filters enable narrowing the data shown in graphs and metrics based on model category, date range, or stale CI threshold.
+
+|Name|Type|Description|
+|----|----|-----------|
+|Model categories|List|Filters CIs based on the selected model categories.|
+|Date range|Date|Filters the dashboard data based on the selected date range.|
+|Stale CI|List|Filters stale CIs based on the number of days since their last update. Available values: `7`, `14`, `30`, `60`, and `90` days.|
+
+Select **Reset filters** to clear all filter selections and restore the dashboard to its default view.
+
+**Note:** You need the pa\_viewer role to use the filters, including **Reset filters**.
+
+## CIs missing model data and other key attributes
+
+Displays key metrics related to CIs missing model details, ownership, and other key attributes, leading to incomplete records and operational inefficiencies.
+
+|Card|Description|Indicators|
+|----|-----------|----------|
+|CIs missing model name|Operational CIs not associated with a model ID or associated with a model ID missing a name.|[CIs missing model name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing model number|Operational CIs not associated with a model ID or associated with a model ID missing a model number.|[CIs missing model number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing model manufacturer|Operational CIs not associated with a model ID or associated with a model ID missing a manufacturer.|[CIs missing manufacturer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing model ID|Operational CIs not associated with a model ID.|[CIs missing model ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing assigned to|Operational CIs not assigned to a specific user, leading to unclear ownership and delayed action.|[CIs missing assigned to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing location|Operational CIs not associated with a location, leading to gaps in asset tracking and service mapping.|[CIs missing location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing managed by group|Operational CIs not managed by a specific ownership group, leading to inefficient support assignment and operational risk.|[CIs missing managed by group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+|CIs missing serial number|Operational CIs missing a serial number, leading to issues with duplicate identification.|[CIs missing serial number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
+
+**Tip:** Select **Show more** in the CIs missing model data and other key attributes section to view all the cards.
+
+## CI data quality issues
+
+Displays key metrics related to CIs that haven’t been updated or may have duplicate records, leading to outdated information and inconsistencies in the CMDB.
+
+<table id="table_r1m_mmj_fgc"><thead><tr><th>
+
+Card
+
+</th><th>
+
+Description
+
+</th><th>
+
+Indicators
+
+</th></tr></thead><tbody><tr><td>
+
+CIs not updated
+
+</td><td>
+
+Operational CIs not updated, causing data gaps and inaccuracies in the CMDB. When you select a segment on the CIs not updated chart, the KPI Details page title reflects the Stale CI filter value selected at the time. For example, CIs not updated in last 30 days.
+
+</td><td>
+
+[CIs not updated in last 7 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)[CIs not updated in last 14 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+[CIs not updated in last 30 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+[CIs not updated in last 60 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+[CIs not updated in last 90 days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+**Note:** The CIs not updated card data is additionally filtered based on the Stale CI filter. See [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard.md).
+
+</td></tr><tr><td>
+
+Duplicate CIs
+
+</td><td>
+
+Operational CIs identified as duplicates based on key matching attributes, causing data redundancy.
+
+</td><td>
+
+[Duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr></tbody>
+</table>## CI and asset-related issues
+
+Displays key metrics related to mismatches and missing links between CIs and assets, leading to incomplete asset life cycle tracking and reporting issues.
+
+<table id="table_ck3_zmj_fgc"><thead><tr><th>
+
+Card
+
+</th><th>
+
+Description
+
+</th><th>
+
+Indicators
+
+</th></tr></thead><tbody><tr><td>
+
+CIs missing asset
+
+</td><td>
+
+Operational CIs not associated with an asset record, leading to incomplete asset life cycle tracking.
+
+</td><td>
+
+[CIs missing asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+Virtual CIs with asset
+
+</td><td>
+
+Virtual assets created for virtual CIs that are operational, leading to inaccurate consumption of HAM licenses.
+
+</td><td>
+
+[Assets created for virtual CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+Assets missing CI
+
+</td><td>
+
+Assets without a matching CI, caused by CIs not being discoverable on the network.
+
+</td><td>
+
+[Assets missing CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+CI install status vs. asset state
+
+</td><td>
+
+All CIs where the install status matches or differs from the corresponding asset state. Available only on instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is not active.
+
+</td><td>
+
+[CI install status vs. asset state matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)[CI install status vs. asset state mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+CI life cycle stage vs. asset life cycle stage
+
+</td><td>
+
+All CIs where the life cycle stage matches or differs from the corresponding asset life cycle stage. Available only on instances where the CSDM Activation plugin \(com.snc.cmdb.csdm.activation\) is active.
+
+</td><td>
+
+[CI lifecycle stage vs. asset lifecycle stage matched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)[CI lifecycle stage vs. asset lifecycle stage mismatched](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)
+
+</td></tr></tbody>
+</table>

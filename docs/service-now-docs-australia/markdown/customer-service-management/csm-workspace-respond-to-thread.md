@@ -1,0 +1,37 @@
+---
+title: Respond to a community thread from a case
+description: For cases that are created from a community discussion, customer service agents can view and respond to the discussion in a new browser tab.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-respond-to-thread.html
+release: australia
+topic_type: task
+last_updated: "2026-06-25"
+reading_time_minutes: 1
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+---
+
+# Respond to a community thread from a case
+
+For cases that are created from a community discussion, customer service agents can view and respond to the discussion in a new browser tab.
+
+## Before you begin
+
+Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, workspace\_admin, admin
+
+## About this task
+
+Cases that have been created from a community discussion have the **Channel** field set to Community.
+
+## Procedure
+
+1.  Open CRM Workspace.
+
+2.  Open a case that was created from a community discussion.
+
+3.  Select the More UI Actions icon and then select **Show Community Thread**.
+
+    This UI action is only available if the **Channel** is Community.
+
+4.  View the community discussion in a new browser window and respond as necessary.
+
+

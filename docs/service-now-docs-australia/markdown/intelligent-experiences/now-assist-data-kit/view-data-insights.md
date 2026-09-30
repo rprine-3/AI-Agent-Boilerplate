@@ -1,0 +1,42 @@
+---
+title: View data insights
+description: You can view data insights to see the completeness and distribution of your generated data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/view-data-insights.html
+release: australia
+product: Now Assist Data Kit
+classification: now-assist-data-kit
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using AI Data Kit, AI Data Kit, Enable AI experiences]
+---
+
+# View data insights
+
+You can view data insights to see the completeness and distribution of your generated data.
+
+## Before you begin
+
+Role required: sn\_data\_kit.admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**.
+
+2.  In the Generate Data section, select **Start now**.
+
+3.  Select the generated data job that you want to see data insights for.
+
+4.  Select the **Data insights** tab.
+
+5.  Select **View records** to see the records associated with each metric.
+
+    |Metric|Description|
+    |------|-----------|
+    |Completeness|This metric helps you find empty fields and duplicated values in all records and calculates the percentage for each column.|
+    |Distribution|This metric helps you understand the categorical or statistical distribution of your data. You can manage the columns you want to view for Categorical Distribution.|
+
+    \[Omitted image "nadk-data-insights.png"\] Alt text: Now Assist Data Kit data insights page
+
+

@@ -1,0 +1,83 @@
+---
+title: Create a conversion funnel
+description: View conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/create-funnel.html
+release: australia
+product: Usage Insights
+classification: usage-insights
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
+---
+
+# Create a conversion funnel
+
+View conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+
+## Before you begin
+
+Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer roles can create, edit and delete funnels for the applications they have access to.
+
+## Procedure
+
+1.  Navigate to **Platform Analytics** &gt; **Usage Insights**.
+
+2.  From the Applications list, select the application for which you want to create a conversion funnel.
+
+3.  Select **Analysis** &gt; **Conversion funnel**.
+
+4.  Select the **Create new funnel** button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text: Create new funnel button\).
+
+5.  Enter a name for the relevant process you want to measure and, optionally, a description, and select **Next**.
+
+6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
+
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d95782e115">
+
+**Event Trigger**
+
+</td><td>
+
+Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
+
+</td></tr><tr><td id="d95782e137">
+
+**Session Start \(1st\)**
+
+</td><td>
+
+Select to measure users' first sessions.
+
+</td></tr><tr><td id="d95782e146">
+
+**Session Start \(any\)**
+
+</td><td>
+
+Select to measure any user sessions.
+
+</td></tr></tbody>
+</table>7.  If applicable, select the **or** button to add an alternative step type that users might choose at that point in the path.
+
+8.  Select any additional steps to add to the funnel.
+
+    \[Omitted image "uxa-funnel-create.png"\] Alt text: Create funnel wizard
+
+9.  Select **Add** to finish the funnel.
+
+    \[Omitted image "usage-insights-funnel.png"\] Alt text: View funnel
+
+10. View the funnel in Platform Analytics.
+
+    You can view your funnel directly from Platform Analytics. When you create dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.
+
+    \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
+
+
+-   **[Create cross-application conversion funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/create-conversion-funnel-for-cross-application.md)**  
+Conversion funnels outline a sequence of steps to measure user progression, identify drop-off points, and track the time taken for each transition. The cross-application capability eliminates the requirement for every step to be in the same application.
+
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
+

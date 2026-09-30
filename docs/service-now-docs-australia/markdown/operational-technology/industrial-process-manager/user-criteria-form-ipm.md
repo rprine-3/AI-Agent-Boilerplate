@@ -1,0 +1,37 @@
+---
+title: User criteria form
+description: You can use the User Criteria form to determine whether certain users can access the equipment model entities for specific sites.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/user-criteria-form-ipm.html
+release: australia
+product: Industrial Process Manager
+classification: industrial-process-manager
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
+---
+
+# User criteria form
+
+You can use the User Criteria form to determine whether certain users can access the equipment model entities for specific sites.
+
+The following table describes the user criteria form fields.
+
+|Field|Description|
+|-----|-----------|
+|Name|Name of the user criteria.|
+|Short description|Brief description of the user criteria to access the site's equipment model entities.|
+|Users|Users that can access the site's equipment model entities when you apply the user criteria. Select the users who can access the entities by selecting the unlock users icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock users icon.\). Add yourself as a user by selecting the add me icon \(\[Omitted image "add-me-icon.png"\] Alt text: Add me icon.\).|
+|Groups|Groups that can access the site's equipment model entities when you apply the user criteria. Select the groups by selecting the unlock groups icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock groups icon.\).|
+|Roles|Roles that can access the site's equipment model entities when you apply the user criteria. Select the groups by selecting the unlock groups icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock groups icon.\).|
+|Advanced|Option to create a script for the user criteria.|
+|Application|Field that is automatically set to `Global`.|
+|Active|Option to make the user criteria available.|
+|Companies|Companies that can access the site's equipment model entities when you apply the user criteria. Select the companies by selecting the unlock companies icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock companies icon.\).|
+|Locations|Locations that can access the site's equipment model entities when you apply the user criteria. Select the locations by selecting the unlock locations icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock locations icon.\).|
+|Departments|Departments that can access the site's equipment model entities when you apply the user criteria. Select the departments by selecting the unlock departments icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock departments icon.\).|
+|Match All|Option to make every condition required when the user criteria are applied. The conditions are set in the previous fields, such as the **Location**, **Department** fields.|
+
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+

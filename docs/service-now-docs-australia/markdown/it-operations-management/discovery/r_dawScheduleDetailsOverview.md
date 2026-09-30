@@ -1,0 +1,155 @@
+---
+title: Schedule details data visualizations
+description: When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The Overview tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_dawScheduleDetailsOverview.html
+release: australia
+product: Discovery
+classification: discovery
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
+---
+
+# Schedule details data visualizations
+
+When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The **Overview** tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
+
+**Note:** For certificate discovery schedules, the Total CIs and CIs discovered count visualizations are replaced by the Total Certificates Discovered and Certificates discovered count visualizations, respectively. Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
+
+<table id="table_cb2_yjv_fsb"><thead><tr><th>
+
+Report title
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Total runs
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Total number of times this Discovery schedule ran in a certain time period.
+
+</td></tr><tr><td>
+
+Timeline of events during schedule run
+
+</td><td>
+
+Timeline
+
+</td><td>
+
+Events that occurred during the schedule runs.
+
+</td></tr><tr><td>
+
+Total CIs
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Number of CIs detected on the last run.
+
+</td></tr><tr><td>
+
+Total Certificates Discovered
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Number of certificates detected on the last run.
+
+</td></tr><tr><td>
+
+CIs discovered count
+
+</td><td>
+
+Line chart
+
+</td><td>
+
+Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Note:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+
+</td></tr><tr><td>
+
+Certificates discovered count
+
+</td><td>
+
+Line chart
+
+</td><td>
+
+Trends of discovered certificates for this Discovery schedule across the statuses listed in Run History.
+
+</td></tr><tr><td>
+
+Errors
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Total number of errors detected on the last run.
+
+</td></tr><tr><td>
+
+Errors count
+
+</td><td>
+
+Line chart
+
+</td><td>
+
+Error trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+
+</td></tr><tr><td>
+
+Duration in mins
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Duration in minutes it took for the last Discovery to run.
+
+</td></tr><tr><td>
+
+Discovery run time
+
+</td><td>
+
+Line chart
+
+</td><td>
+
+Run time trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
+

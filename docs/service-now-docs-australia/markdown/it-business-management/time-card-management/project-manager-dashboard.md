@@ -1,0 +1,57 @@
+---
+title: Analytics Project manager
+description: The Analytics Project manager provides the project managers with quick reports of time card exceptions, and category wise time reported for their projects. The dashboard displays time card reports only for the projects managed by a project manager.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/project-manager-dashboard.html
+release: australia
+product: Time Card Management
+classification: time-card-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Analytics Project manager
+
+The Analytics Project manager provides the project managers with quick reports of time card exceptions, and category wise time reported for their projects. The dashboard displays time card reports only for the projects managed by a project manager.
+
+**Important:** Starting with Xanadu release, **Project Manager Dashboard** is renamed to **Analytics Project manager** for new customers.
+
+The dashboard can be activated using the Performance Analytics - Content Pack - Project Portfolio Suite Dashboards plugin \(com.snc.pps\_dashboards\). You require Performance Analytics license to use this dashboard.
+
+The reports in the dashboard are filtered based on **Project**, and **Date** selected.
+
+The Analytics Project manager consists of these components:
+
+## Project time card exception count
+
+It displays the total count of entries in **Project time card exceptions** report.
+
+\[Omitted image "ProjectTimeCardExceptionCount.png"\] Alt text: Screenshot for Project Time Card Exception Count section
+
+## Project time card exceptions report
+
+The Project time card exceptions report lists the users who did not submit their time cards, and the time cards which are not yet approved for the selected project and time range. The exception report is generated for the users who are assigned to a task in progress, or hard allocated to the project/task in that time range. The report displays the following data:
+
+-   **User**: The time card user assigned to the selected project, or hard allocated to the resource plan associated with the project. If there are more than one time cards for a user in a given date range which are not submitted or require approval, then multiple entries are listed for the user.
+-   **Week starts on**: Starting date of the time card week in the selected time range.
+-   **State**: State of the time card. Time card entries with state as **Not Submitted** are also listed if a time card is not created for the week.
+
+The report is generated from the project\_timecard\_exception table. It requires the schedule job **Project Time Card Exceptions** to be running to get the up-to-date information.
+
+## Total approved hours for project\(s\)
+
+It displays the total approved hours in all project categories displayed in **Time by Project Time Category** report.
+
+\[Omitted image "ProjectDashboardTotalHours.png"\] Alt text: Screenshot for total approved hours for selected projects
+
+## Time by Project Time Category report
+
+The bar chart report displays the time approved against each project category for the users allocated to the selected project.
+
+-   **[Use the Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/use-project-manager-dashboard.md)**  
+The Analytics Project manager shows the time card reports for the selected projects.
+
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
+

@@ -1,0 +1,87 @@
+---
+title: Associate CIs with Problem
+description: Associate multiple affected or impacted configuration items \(CIs\) to a problem to find out all the CIs that are affected by the same problem.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/add-multiple-cis-to-problem.html
+release: australia
+product: Problem Management
+classification: problem-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Managing Problems, Problem Management, IT Service Management]
+---
+
+# Associate CIs with Problem
+
+Associate multiple affected or impacted configuration items \(CIs\) to a problem to find out all the CIs that are affected by the same problem.
+
+## Before you begin
+
+Role required: itil, sn\_problem\_write, admin, problem\_admin, problem\_coordinator or problem\_manager
+
+## About this task
+
+Use the **Configuration Item** field when there is a single, primary CI that is the cause of the problem and the **Affected CIs** or the **Impacted Services/CIs** related list when multiple CIs are affected by the problem.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Problem** &gt; **Open**.
+
+2.  Open the problem record to which you want to associate CI items.
+
+3.  Perform the following actions:
+
+<table id="table_eh3_nlr_clb"><thead><tr><th>
+
+Options
+
+</th><th>
+
+Procedures
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration item
+
+</td><td>
+
+1.  Click the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\).
+2.  Select configuration item.
+
+**Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
+
+</td></tr><tr><td>
+
+Affected CIs
+
+</td><td>
+
+1.  Click **Add**.
+2.  Select configuration items.
+
+**Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
+
+\[Omitted image "affected-ci-offering-filter.png"\] Alt text: Filter in Affected CIs related list
+
+3.  Click **Add Selected**.
+
+
+</td></tr><tr><td>
+
+Impacted Services/CIs
+
+</td><td>
+
+1.  Click **Add**.
+2.  Select configuration items.
+
+**Note:** By default, Service Offering is filtered out.
+
+3.  Click **Add Selected**.
+ **Note:** If the Impacted Services/CIs is not visible on the form, [configure the form layout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+
+</td></tr></tbody>
+</table>
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
+

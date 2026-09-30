@@ -1,0 +1,64 @@
+---
+title: App development, agentic development, and low-code
+description: ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
+release: australia
+topic_type: concept
+last_updated: "2026-06-16"
+reading_time_minutes: 3
+keywords: [low-code, no-code, app development, workflow automation, digital transformation, App Engine, App Engine Studio, App Engine Management Center, Automated Test Framework, Build Agent, Creator Studio, Guided Application Creator, Mobile App Builder, Now Assist for Creator, Performance Analytics, Predictive Intelligence, Playbooks, Service Portal, ServiceNow IDE, ServiceNow Studio, UI Builder, Virtual Agent, Workflow Studio, developer sandboxes, vibe coding, agentic development]
+audience: administrator
+---
+
+# App development, agentic development, and low-code
+
+ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
+
+ServiceNow AI Platform® App Engine products, enhanced by Now Assist AI, offer low-code mobile and web application development platforms for creating new business applications and customizing existing ServiceNow applications, accelerating your digital transformation.
+
+ServiceNow workflows provide automated sequences of tasks that your applications can leverage to reduce manual tasks, errors, and organizational inefficiency.
+
+<table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
+
+Build applications \[Omitted image "bus-application-development.svg"\] Alt text: Build new applications with low-code development tools. Turn business processes into digital workflows to deliver faster, smarter experiences.
+
+</td><td>
+
+[Build workflows \[Omitted image "bus-workflow.svg"\] Alt text: Modernize legacy processes and extend workflow automation across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-workflows.md)
+
+</td></tr></tbody>
+</table>## App Engine products and features
+
+For a full list of App Engine products, see the [ServiceNow product site](https://www.servicenow.com/products/now-platform-app-engine.html#plans-packages).
+
+## App development product offerings
+
+The following table lists the products and features that you can use to develop apps on the ServiceNow AI Platform.
+
+|Product name|Description|
+|------------|-----------|
+|App Engine Studio|Build apps at scale with a low-code development environment and prebuilt templates.|
+|App Engine Management Center|Empower business and IT to collaborate, manage, and govern low-code app development.|
+|Automated Test Framework|Complete upgrades and innovate faster. Reduce risk and quickly remediate customization issues by automating slow manual testing.|
+||Use an autonomous AI agent to create, update, and test full-stack ServiceNow applications through conversational prompts.|
+|Creator Studio|Empower citizen developers to create natively compliant request-based applications with a guided no-code end-to-end development, streamlining app dev stages from days to minutes.|
+|Delegated Development|Enable developers of any skill level to build apps for specific projects.|
+||Provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance.|
+|Guided Application Creator|Get guidance to rapidly create applications, define data, and configure user experiences.|
+|[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)|Create and deploy native mobile experiences using an intuitive designer.|
+|ServiceNow Otto for Creator|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
+|[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md)|Anticipate and continuously improve with real-time analytics.|
+|Prebuilt Templates|Accelerate development with templates that satisfy a variety of use cases|
+|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md)|Simplify and accelerate everyday work with built-in machine learning.|
+|[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)|Build and manage multiple complex workflows with no-code playbooks.|
+|[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)|Improve outcomes by optimizing process flows to streamline work.|
+||Automate deployment of changes across your pipeline, increase predictability and reliability of deployments, and reduce the risk of releasing changes to production.|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md)|Deliver mobile-friendly, self-service experiences to your customers and employees with an easy-to-use portal framework.|
+|ServiceNow IDE|Use a web-based integrated development environment to build, deploy, and manage your apps.|
+|ServiceNow Studio|Access all the tools you need in one unified, intuitive development environment. Empower your developers to innovate, build, and deploy apps faster using AI-powered technology.|
+|UI Builder|Create and customize workspace pages with a single builder. Deliver engaging, personalized employee experiences.|
+|Virtual Agent|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
+|[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)|Build flow to automate business processes as digital workflows across departments, apps, and systems.|
+||Deliver personalized experiences that engage teams and supercharge productivity with the configurable workspaces.|
+

@@ -1,0 +1,40 @@
+---
+title: Manage your trusted device
+description: Manage your trusted device from the Trusted Device registration page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/manage-your-trusted-device.html
+release: australia
+product: Authentication
+classification: authentication
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Adaptive authentication for Trusted Mobile apps, Adaptive authentication, Authentication, Access Management]
+---
+
+# Manage your trusted device
+
+Manage your trusted device from the Trusted Device registration page.
+
+## Before you begin
+
+Role required: none
+
+## Procedure
+
+1.  Navigate to one of the following menu options:
+
+    -   On the ServiceNow AI Platform, navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
+
+        **Note:** You can also access your profile by clicking your user name in the instance header.
+
+    -   On the Now Support, click the profile and select **Trusted Device**.
+2.  In your user profile, click **Register Trusted Device** in the Related Links section.
+
+    The Register Trusted Devices page is displayed.
+
+3.  On the Register Trusted Devices page, remove the device by clicking the \[Omitted image "delete-icon.png"\] Alt text: Delete icon icon.
+
+    **Note:** The deleted mobile device must be registered again to access the instance.
+
+

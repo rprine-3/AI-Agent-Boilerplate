@@ -1,0 +1,40 @@
+---
+title: Example for using Coaching in Workforce Optimization for ITSM
+description: Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skills sets with Coaching.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-coaching-configurable-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Example for using Coaching in Workforce Optimization for ITSM
+
+Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skills sets with Coaching.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+An IT manager manages IT operations for a large organization that has 12 teams reporting to the manager. Each of the manager's teams has anywhere from 20 through 50 agents. This manager is also added as a manager of other teams where they need visibility.
+
+The manager wants a single location to:
+
+-   Monitor the skills that the teams use the most to solve issues
+-   Analyze metrics and monitor pending coaching assessments and training for the teams
+-   Add skills used for resolving issues or when Predictive Intelligence Workbench recommends them.
+
+The manager can manage all of these actions by doing the following:
+
+1.  Set conditions that trigger coaching opportunities.
+2.  Assess agents' skills and assign training.
+3.  Add skills to agent profile when they complete training or using recommendations from Predictive Intelligence.
+
+Get an overview on coaching, creating assessments, taking surveys, assigning training, and adding skills.
+
+Get an overview of how you can add skills manually or the ones recommended using Predictive Intelligence and the Skill Recommendation application.
+
+For detailed instructions on setting up and using Coaching for Workforce Optimization for ITSM, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.md).
+

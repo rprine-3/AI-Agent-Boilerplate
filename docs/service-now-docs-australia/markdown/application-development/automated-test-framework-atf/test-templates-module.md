@@ -1,0 +1,27 @@
+---
+title: Test templates
+description: The Test Templates module opens a list of available templates. From this module, you create, view, and edit test templates.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-templates-module.html
+release: australia
+product: Automated Test Framework \(ATF\)
+classification: automated-test-framework-atf
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Administration, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+---
+
+# Test templates
+
+The Test Templates module opens a list of available templates. From this module, you create, view, and edit test templates.
+
+To view or edit a test template, click the row for the template you want. For more information, see [Edit automated test steps template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-edit-template.md).
+
+For information how to add a new template, see [Create an automated test steps template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-template.md). For information on how to use a template when creating a test, see [Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-template.md).
+
+-   **[Automated Test Template record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-template-record.md)**  
+The Test Template record contains information about one test template.
+
+**Parent Topic:**[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-admin-module.md)
+

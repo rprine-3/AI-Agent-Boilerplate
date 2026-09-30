@@ -1,0 +1,55 @@
+---
+title: Search Source form
+description: The Search Source form enables you to create a search source that you can make available in AI Search user search experiences.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-source-form-ais.html
+release: australia
+product: AI Search
+classification: ai-search
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Search Source form
+
+The Search Source form enables you to create a search source that you can make available in AI Search user search experiences.
+
+For details on creating or editing search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+
+<table id="table_f2c_t4r_grb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name for the search source.
+
+</td></tr><tr><td>
+
+Indexed source
+
+</td><td>
+
+Reference to an indexed source. For more details on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
+
+</td></tr><tr><td>
+
+Conditions
+
+</td><td>
+
+Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md).
+
+</td></tr></tbody>
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+

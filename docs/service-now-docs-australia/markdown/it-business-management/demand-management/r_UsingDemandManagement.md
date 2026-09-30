@@ -1,0 +1,196 @@
+---
+title: Use Demand Management
+description: Users with the demand manager role can create, view, and modify demands using the Demand Management application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/r\_UsingDemandManagement.html
+release: australia
+product: Demand Management
+classification: demand-management
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 6
+breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Use Demand Management
+
+Users with the demand manager role can create, view, and modify demands using the Demand Management application.
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
+
+You can also approve demands and create the following artifacts from the approved demands:
+
+-   Project
+-   Change
+-   Enhancement
+-   Defect
+-   Enterprise Agile Planning \(EAP\) entities \(epic, feature, and capability\)
+
+The type of artifact created from a demand depends on the selections in the **Category** and **Type** fields on the Demand form.
+
+**Note:**
+
+-   Enhancements and defects can be created when the administrator has activated the SDLC-SCRUM plugin.
+-   EAP entities can be created when the Strategic Planning plugin is activated.
+
+## Demand Management Life Cycle
+
+The demand management life cycle can be simplified as follows:
+
+-   [Creating a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md): The user submits an idea and the demand manager approves the idea, automatically creating a demand from that idea.
+-   [Viewing a list of demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewDemands.md): The demand manager views demands on the [demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbench.md) or from a list view.
+-   [Enhancing a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_EnhancingDemands.md): The demand manager can send the demand to screening, which sends assessments to stakeholders.
+-   [Assessing a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_AssessingDemands.md):
+    -   The demand manager can screen the demand and send surveys to stakeholders to complete assessments.
+    -   The demand manager can set the state of the demand to qualify, defer, or incomplete.
+    -   Demands can be analyzed and approved using the demand workbench.
+-   Creating an artifact: The demand manager creates a project, enhancement, change, defect, or EAP entities.
+
+The demand management application uses the following simplified demand states.
+
+<table id="tbl_DemandManagementStates"><thead><tr><th>
+
+State
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Draft
+
+</td><td>
+
+The demand manager accepts a submitted idea.After reviewing or editing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Submit demand**: The demand is moved to the submitted state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Submitted
+
+</td><td>
+
+An accepted idea creates a demand record and the demand manager submits the demand.After reviewing or editing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Screen**: The demand is moved to the screening state.
+-   **Qualify** The demand is moved to the qualified state.
+-   **Defer**: The demand is moved to the deferred state.
+-   **Reset to Draft**: The demand is moved back to the draft state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Screening
+
+</td><td>
+
+Stakeholder assessments are initiated for the demand. After reviewing or editing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Qualify** The demand is moved to the qualified state.
+-   **Defer**: The demand is moved to the deferred state.
+-   **Reset to Draft**: The demand is moved back to the draft state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Qualified
+
+</td><td>
+
+The demand has been qualified and is ready for review.After reviewing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Approve**: The demand is moved to the approved state.
+-   **Defer**: The demand is moved to the deferred state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Deferred
+
+</td><td>
+
+The demand has been put on hold. The demand can be revisited in future and reviewed.After reviewing the record, select one of these buttons:
+
+ -   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Approve**: The demand is moved to the approved state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Approved
+
+</td><td>
+
+The demand is approved After reviewing or editing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Close**: The demand is moved to the closed state.
+-   **Reset to Draft**: The demand is moved back to the draft state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr><tr><td>
+
+Completed
+
+</td><td>
+
+The demand is moved to the completed state.After reviewing the record, select one of these buttons:
+
+-   **Update**: The demand record is updated, but the demand remains in the current state.
+-   **Reset to Draft**: The demand is moved back to the draft state.
+-   **Delete**: The demand record is deleted.
+
+</td></tr></tbody>
+</table>These states appear in the process flow indicator at the top of the Demand form. The process flow indicator:
+
+-   Highlights the current state of the demand.
+-   Checks off the states that a demand has passed through.
+-   Leaves empty the states that have been skipped.
+
+-   **[Assess demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_AssessingDemands.md)**  
+The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
+-   **[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)**  
+Create demands to capture your strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
+-   **[Identify similar records using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/identify-similar-demands.md)**  
+Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-summary-demand-classic.md)**  
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
+-   **[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewDemands.md)**  
+You can view existing demands at any time.
+-   **[Add details to demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_EnhancingDemands.md)**  
+The demand manager typically works with a business relationship manager to identify stakeholders and elicit requirements, risks, and other important information.
+-   **[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)**  
+RIDAC is an acronym for Risk, Issue, Decision, Action, and Request Changes records. Create a risk for your demand that you can convert to other records during the demand life cycle. Track issues and avoid manual copying of relevant details in related records.
+-   **[Reset a demand to Draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reset-demand-to-draft-state.md)**  
+A demand can be moved back to the Draft state, if necessary.
+-   **[Delete demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_DeletingDemands.md)**  
+Demands can be deleted only while in the Pending state.
+-   **[Move and resize a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_MoveAndResizeADemand.md)**  
+As the demand manager, you can move and resize bubbles in the bubble chart.
+-   **[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/train-similarity-solution-dm.md)**  
+Train the Similar Demands solution definition is included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
+-   **[PPM PIWB template - Find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ppm-piwb-demand.md)**  
+Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
+-   **[Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/associate-ai-systems-with-demands.md)**  
+Add and manage AI system associations directly from the **AI Associations** tab in Demand Management.
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/my-demands-widget-ppm.md)**  
+The My Demands widget and conversational experience in Employee Slate brings demand creation and tracking into a single, conversation-first workspace. Requesters can create demands through the conversational experience and track them using widgets.
+
+**Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandManagement.md)
+

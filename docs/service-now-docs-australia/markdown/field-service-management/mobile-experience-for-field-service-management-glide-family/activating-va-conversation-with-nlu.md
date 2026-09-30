@@ -1,0 +1,49 @@
+---
+title: Activate Virtual Agent conversations with NLU
+description: Integrate Natural Language Understanding \(NLU\) models with your Virtual Agent chatbot topics so that chatbots can analyze and understand the user's provided information. The chatbot can navigate the user to the right topic based on the inferred intent.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activating-va-conversation-with-nlu.html
+release: australia
+product: Mobile Experience for Field Service Management \(Glide Family\)
+classification: mobile-experience-for-field-service-management-glide-family
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Set up Virtual Agent conversations, Setting up Field Service Mobile Agent, Configure, Field Service Management]
+---
+
+# Activate Virtual Agent conversations with NLU
+
+Integrate Natural Language Understanding \(NLU\) models with your Virtual Agent chatbot topics so that chatbots can analyze and understand the user's provided information. The chatbot can navigate the user to the right topic based on the inferred intent.
+
+## Before you begin
+
+Role required: admin, virtual\_agent\_admin
+
+## About this task
+
+The Field Service NLU Model for Virtual Agent Conversations plugin \(com.sn\_fsm.nlu\) is automatically enabled when you enable the Field Service Virtual Agent Conversations plugin \(com.sn\_fsm.virtualagent\).
+
+After enabling the plugin, you can view the following read-only intents for the Field Service NLU models in Studio:
+
+-   My Upcoming Tasks
+-   Show Nearby Tasks
+-   Debrief Tasks
+
+To use these intents, you must train and publish the predefined Field Service NLU for VA model. For more information, see [Train your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-train-nlu-model.md) and [Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/publish-nlu-model.md).
+
+## Procedure
+
+1.  Enable ServiceNow NLU in Virtual Agent.
+
+    For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-nlu-settings.md).
+
+2.  Customize an intent by importing an existing intent from the Field Service NLU for Virtual Agent model.
+
+    For more information, see [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/import-nlu-intent.md).
+
+3.  Link the NLU model with associated intents in the Virtual Agent topics.
+
+    For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+
+

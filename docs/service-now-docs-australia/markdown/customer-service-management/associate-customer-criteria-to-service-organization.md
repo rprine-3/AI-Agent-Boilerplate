@@ -1,0 +1,70 @@
+---
+title: Define the configuration type for customers or business organizations
+description: Define the configuration type to provide service to customers or business organizations \(formerly business locations\) within any service organization \(SO\) using the Customer Service Management \(CSM\) application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-customer-criteria-to-service-organization.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Configuring business organizations, Setting up inter-organization support, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+---
+
+# Define the configuration type for customers or business organizations
+
+Define the configuration type to provide service to customers or business organizations \(formerly business locations\) within any service organization \(SO\) using the Customer Service Management \(CSM\) application.
+
+## Before you begin
+
+Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and sn\_bus\_loc.location\_relationship\_manager
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal or External Organizations**.
+
+2.  Select the desired internal or external organizations \(formerly internal or external business locations\) record and go to the **Configurations** tab.
+
+3.  Select the configuration type based on whether you intend to provide service to customers or business organizations \(formerly business locations\) within any service organization.
+
+<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d155532e154">
+
+Configuration type
+
+</th><th align="left" id="d155532e157">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d155532e163">
+
+**Customers served**
+
+</td><td>
+
+Customers that are served at a business organization. The customers served can be defined with two options:-   **All customers**: Enables service organization staff to create and resolve issues for all the customers.
+-   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
+
+
+</td></tr><tr><td id="d155532e208">
+
+**Business locations served**
+
+</td><td>
+
+Internal or external organizations that are served by a business organization. The business organizations served can be defined with three options:-   **None**: Exclude support for any other business organization.
+-   **Hierarchy-based**: Enables location support agents to create and resolve cases for formerly service organizations through hierarchical relationships.
+
+In other words, it’s a service organization relationship where a business organization serves every business organization within its hierarchy. For example, regional support agents.
+
+-   **Criteria-based**: Enables location support agents to create and resolve cases for service organizations that meet the defined criteria. For example, shared services.
+
+
+</td></tr></tbody>
+</table>4.  Select **Update**.
+
+
+## What to do next
+
+Once the configuration is defined, you can associate your customers or business organizations to a service organization. For more information, see [Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md).
+

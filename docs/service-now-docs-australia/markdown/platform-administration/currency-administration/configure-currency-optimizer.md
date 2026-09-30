@@ -1,0 +1,40 @@
+---
+title: Configure the currency optimizer
+description: You can configure the system to use an optimizer for currency/price fields to speed up list view \(reading currency/price values\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/configure-currency-optimizer.html
+release: australia
+product: Currency Administration
+classification: currency-administration
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Configure the currency optimizer
+
+You can configure the system to use an optimizer for currency/price fields to speed up list view \(reading currency/price values\).
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **sys\_properties.list**.
+
+2.  To turn on the currency optimizer, find **glide.currency\_price\_optimizer.enabled**, and set to the desired value.
+
+    |Value|Description|
+    |-----|-----------|
+    |false|Optimizer is not used.|
+    |true|Optimizer is used. This value is the default.|
+
+3.  To set the minimum number of rows needed by the currency optimizer, find **glide.currency\_price\_optimizer.min\_rows**, and set to the desired value.
+
+    The default value is 4.
+
+
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
+

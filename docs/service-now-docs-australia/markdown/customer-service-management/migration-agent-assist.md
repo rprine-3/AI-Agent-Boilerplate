@@ -1,0 +1,22 @@
+---
+title: Agent assist
+description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-agent-assist.html
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+---
+
+# Agent assist
+
+Learn about how the Workspace Agent assist functions with Configurable Workspace.
+
+Agent assist provides agents with automatic search results that show possible solutions for records they open. Configure Agent assist in Configurable Workspace by configuring a record page with a Glide form data source and a Contextual Sidebar. For more information, see [Agent assist Overview](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/sn-agent-assist-uib/overview) on the ServiceNow Developer Site.
+
+**Note:** You may need to log in to the Developer Site to see the content.
+
+For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ContextualSearch.md).
+

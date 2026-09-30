@@ -1,0 +1,45 @@
+---
+title: Update a non-monetary benefit plan breakdown for a demand
+description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/update-a-non-monetary-benefit-plan-breakdown-for-a-demand.html
+release: australia
+product: Demand Management
+classification: demand-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Create a non-monetary benefit plan, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Update a non-monetary benefit plan breakdown for a demand
+
+Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
+
+## Before you begin
+
+Role required: it\_demand\_manager
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **All**.
+
+2.  Open the required demand.
+
+3.  Select the Non-monetary Benefit Plans related list.
+
+4.  Open the required non-monetary benefit plan.
+
+5.  In the Non-monetary Benefit Plan Breakdowns related list, select the information icon \(\[Omitted image "benefit-plan-icon.png"\] Alt text:\) against a non-monetary benefit plan breakdown.
+
+6.  Select **Open Record**.
+
+7.  On the Non-monetary Benefit Plan Breakdown form, view and update the enabled fields.
+
+    For a detailed description of the field names, see [Non-monetary Benefit Plan Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/non-monetary-benefit-plan-breakdown-form.md).
+
+8.  Select **Update**.
+
+
+**Parent Topic:**[Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md)
+

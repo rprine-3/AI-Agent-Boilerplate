@@ -1,0 +1,51 @@
+---
+title: Configure the category of a Portal Mega Menu widget
+description: Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
+release: australia
+product: Customer Self-service and Omnichannel Engagement
+classification: customer-self-service-and-omnichannel-engagement
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+---
+
+# Configure the category of a Portal Mega Menu widget
+
+Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
+
+## Before you begin
+
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+
+Role required: sp\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
+
+2.  On the Service Portals page, in the **Title** column, enter `Customer Service`.
+
+3.  Select **Customer Service**.
+
+4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record-icon.jpg"\] Alt text: Preview this record icon\).
+
+    If a message appears about the application scope, select the link to edit the record.
+
+5.  On the Instance with Menu form, select **Open Record**.
+
+6.  On the CSP Header Menu form, if Portal Mega Menu doesn't appear in the **Widget** field, search for and select it.
+
+7.  Select **Update**.
+
+8.  On the CSP Header Menu page, in the Related Links section, select the category that you want to update.
+
+9.  On the Menu item form, fill in the fields.
+
+    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/menu-item-form.md).
+
+10. Select **Update**.
+
+

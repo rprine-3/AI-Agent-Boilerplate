@@ -1,0 +1,42 @@
+---
+title: Update multiple work order tasks simultaneously
+description: Save time and update multiple work order tasks at once in the calendar in Dispatcher Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/update-multiple-tasks.html
+release: australia
+product: Field Service Scheduling
+classification: field-service-scheduling
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+---
+
+# Update multiple work order tasks simultaneously
+
+Save time and update multiple work order tasks at once in the calendar in Dispatcher Workspace.
+
+## Before you begin
+
+Role required: wm\_dispatcher
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
+
+2.  Select **Dispatcher Workspace**.
+
+3.  On the calendar in Dispatcher Workspace press Shift, or Command on your keyboard while you select multiple tasks.
+
+    **Note:** Tasks must be in the assigned or scheduled state to be selected.
+
+4.  Select the Overflow actions icon \(\[Omitted image "overflow-actions.png"\] Alt text: Overflow actions icon\) in the contextual side panel.
+
+5.  Select the action to perform on the tasks:
+
+    -   Open record
+    -   Unassign all
+    -   Lock all
+    -   Unlock all
+    -   Deselect all
+

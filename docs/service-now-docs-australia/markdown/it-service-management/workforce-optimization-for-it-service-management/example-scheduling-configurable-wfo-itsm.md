@@ -1,0 +1,44 @@
+---
+title: Example for using scheduling in Workforce Optimization for ITSM
+description: Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-scheduling-configurable-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Example for using scheduling in Workforce Optimization for ITSM
+
+Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+A manager manages IT operations for a large organization and has 12 teams reporting to them. Each of their teams has anywhere from 20 through 50 agents. At any given point, they needs visibility into their teams' schedule. They must also be able to create shifts, and approve or reject shift-swap or time-off requests from their agents.
+
+As a manager, they can manage their entire teams' schedule using **Scheduling**. Ingrid's team can manage their own schedule effectively by requesting shift-swaps or time-off.
+
+The manager and their team can manage schedules by performing the following steps from one central location:
+
+1.  Create shift plan
+2.  Create a schedule plan
+3.  Assign agents to work shifts
+4.  Publish the schedule
+5.  Agents make requests to change the schedule or take time off
+
+    For more information, refer to [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
+
+6.  Approve requests
+
+Get an overview of how to you can create shift plans and assign agents to the shifts using the schedule plan in this video.
+
+Get an overview of how you can monitor shifts and schedule for your entire team from a single location in this video.
+
+Get an overview of how agents use the workspace to manage their schedule.
+
+For detailed information on creating and managing schedules using Workforce Optimization for ITSM, refer to [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
+

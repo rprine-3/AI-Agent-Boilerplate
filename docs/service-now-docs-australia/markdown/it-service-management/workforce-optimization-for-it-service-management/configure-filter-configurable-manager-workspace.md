@@ -1,0 +1,130 @@
+---
+title: Configure filters for ITSM Manager Workspace
+description: Define filter configurations for Schedule, Coaching, and Channels applications. You can use these filters to refine your search and view targeted results.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-filter-configurable-manager-workspace.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-06-02"
+reading_time_minutes: 1
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Configure filters for ITSM Manager Workspace
+
+Define filter configurations for Schedule, Coaching, and Channels applications. You can use these filters to refine your search and view targeted results.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: sn\_wfo\_cfg\_ws.admin
+
+## About this task
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace Configurations** &gt; **Filter Configurations**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
+
+<table id="table_xp1_hlt_jnb"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Filter Name
+
+</td><td>
+
+Unique name for the filter configuration.
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Table that is used for the filter configuration. **Note:**
+
+-   You can filter only on specific tables or database views for each module.
+-   For a list of tables and database views that you can use for each module, see the Filter Configuration Tables section in [Workforce Optimization for ITSM components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/components-installed-workforce-optimization-itsm.md).
+
+
+</td></tr><tr><td>
+
+Field
+
+</td><td>
+
+Field on which to filter.
+
+</td></tr><tr><td>
+
+Filter Query
+
+</td><td>
+
+Query to narrow down the filter options.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Type of field to choose from:-   Choice: choice type field.
+-   Reference: reference type field.
+
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Filter that you can use to see the display order in Manager Workspace.
+
+</td></tr><tr><td>
+
+Workspace Module
+
+</td><td>
+
+Workforce Optimization for ITSM module that displays the filter configuration.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option that enables the filter configuration in Manager Workspace.
+
+</td></tr></tbody>
+</table>4.  Select **Submit**.
+
+
+## Result
+
+The filter configuration is saved and available in the **Workspace Module** you specified, provided the **Active** option is selected.
+
+## Filter added to the Schedules module
+
+If you created a new filter for the **Schedules** module, then you must navigate to the **Schedules** module to view it.
+
+## What to do next
+
+To verify the filter is active, navigate to **All** &gt; **Workforce Optimization for ITSM** &gt; **Manager Workspace** and open the module specified in the **Workspace Module** field. The filter appears in the filter panel.
+
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+

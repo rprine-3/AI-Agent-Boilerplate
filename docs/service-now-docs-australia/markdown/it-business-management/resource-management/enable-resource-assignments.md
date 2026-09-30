@@ -1,0 +1,44 @@
+---
+title: Enable attribute-based resource assignments
+description: Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/enable-resource-assignments.html
+release: australia
+product: Resource Management
+classification: resource-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Enable attribute-based resource assignments
+
+Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
+
+## Before you begin
+
+-   If a project, demand, or a task has at least one attribute-based resource plan, Resource plans related list is hidden.
+-   If a project, demand, or a task has at least one resource plan without any attribute-based resource assignments, Resource plans related list is visible.
+-   If a project, demand, or a task has no resource plans and the **sn\_pw.enable\_resource\_planning** property is enabled, the Resource assignments related list is available. Otherwise, the Resource plans related list is available.
+-   If a project, demand, or a task has at least one attribute-based resource assignment, **New** and **Manage** options are hidden for Resource plans.
+-   If a project, demand, or a task has at least one resource plan without any attribute-based resource assignments, **New** and **Manage** options are available for Resource plans.
+-   If a project, demand, or a task has no resource plans and the **sn\_pw.enable\_resource\_planning** property is enabled, **New** and **Manage** options are hidden for Resource plans, else, they will be available.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Properties** &gt; **All**.
+
+2.  Filter the name field to locate and open **sn\_pw.enable\_resource\_planning**.
+
+3.  Change the scope of the instance to **Project Workspace**.
+
+4.  Clear the Value field and enter **true**.
+
+5.  Select **Update**.
+
+
+**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+

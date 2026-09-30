@@ -1,0 +1,78 @@
+---
+title: Customizing roadmap item dependency display
+description: Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.html
+release: australia
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
+breadcrumb: [Personalize roadmap view, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Customizing roadmap item dependency display
+
+Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
+
+The Personalize \(\[Omitted image "personalize-icon.png"\] Alt text: Personalize icon.\) side panel on the roadmap provides different toggles to personalize the display of dependencies on your roadmap.
+
+-   For portfolio plan roadmaps, these toggles are always available.
+-   For free-form roadmaps, these toggles are available only if the roadmap's source table is the Planning Item table \[sn\_align\_core\_planning\_item\] or one of its extensions.
+
+\[Omitted image "dependencies-toggle.png"\] Alt text: Dependencies toggle on the roadmap.
+
+<table id="table_cgz_jd3_2tb"><thead><tr><th>
+
+Dependencies Toggle
+
+</th><th>
+
+Roadmap view
+
+</th></tr></thead><tbody><tr><td>
+
+**View dependencies**
+
+ Indicates dependencies in the form of circles on either side of the planning item bars.
+
+ These circles either contain a number inside them \(\[Omitted image "icon-dependency-circle.png"\] Alt text: Dependency circle.\), indicating the number of dependencies that item shares, or is colored red \(\[Omitted image "icon-dependency-error.png"\] Alt text: Dependency error icon.\) indicating a conflicting dependency.
+
+ **Note:** This toggle must be enabled to use the other two toggles in the Dependencies section.
+
+</td><td>
+
+\[Omitted image "dependency-circles.png"\] Alt text: Dependency circles on the roadmap.
+
+</td></tr><tr><td>
+
+**Dependency lines**
+
+ Indicates dependencies using lines between the planning items.
+
+ These lines are shown only if:
+
+-   Both planning items of the dependency are within the same roadmap
+-   Dependency is of the **Depends on** type
+
+</td><td>
+
+\[Omitted image "dependency-lines.png"\] Alt text: Dependency lines between the planning items.
+
+</td></tr><tr><td>
+
+**Only items with dependencies**
+
+ Filters the roadmap to show only those planning items that have that have at-least one **Depends on** type of relationship.
+
+ The items shown here can depend on items on or out of the current roadmap.
+
+</td><td>
+
+\[Omitted image "only-dependencies.png"\] Alt text: Roadmap showing only items with dependencies.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
+

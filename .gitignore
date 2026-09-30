@@ -1,0 +1,16 @@
+# ServiceNow credentials
+**/settings.json
+**/_settings.json
+
+# Extension logs
+debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~

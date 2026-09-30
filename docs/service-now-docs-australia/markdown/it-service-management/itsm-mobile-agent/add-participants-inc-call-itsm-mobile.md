@@ -1,0 +1,56 @@
+---
+title: Add participants to a conference call from an incident
+description: Add participants to an active conference call from an incident to discuss about the resolution of an incident.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/add-participants-inc-call-itsm-mobile.html
+release: australia
+product: ITSM Mobile Agent
+classification: itsm-mobile-agent
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Collaboration with incidents, My incidents, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+---
+
+# Add participants to a conference call from an incident
+
+Add participants to an active conference call from an incident to discuss about the resolution of an incident.
+
+## Before you begin
+
+Role required: itil, itil\_admin, or admin
+
+## Procedure
+
+1.  Open ITSM Mobile Agent app.
+
+2.  In **My work** tab, tap **See All**.
+
+    \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
+
+3.  Open the incident where the conference call is originated.
+
+4.  Tap **Collaborate**.
+
+    \[Omitted image "incident-collaborate-itsm-mobile.png"\] Alt text: My work.
+
+5.  Tap on the active conference call.
+
+    \[Omitted image "active-call-inc-itsm-mobile.png"\] Alt text: My work.
+
+6.  Tap **Add participants**.
+
+    \[Omitted image "add-participants-active-call-itsm-mobile.png"\] Alt text: My work.
+
+7.  Provide the following details:
+
+    1.  **Recommended participants**: The list of participants associated with the incident will be displayed. Select the required users, and tap **Submit**.
+    2.  **Users**: Select the required users, and tap **Submit**.
+    3.  **Groups**: Select the required group, and tap **Submit**.
+    \[Omitted image "add-participant-inc-call-itsm-mobile.png"\] Alt text: Add participants
+
+8.  In the **Add participants** screen, click **Submit**.
+
+
+**Parent Topic:**[Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/collaboration-incident-itsm-mobile.md)
+

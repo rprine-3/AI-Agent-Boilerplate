@@ -1,0 +1,90 @@
+---
+title: Allocate a sandbox
+description: Allocate sandboxes to your development teams so they can start using them for development.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/allocating-sandboxes.html
+release: australia
+product: Developer Sandboxes
+classification: developer-sandboxes
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
+---
+
+# Allocate a sandbox
+
+Allocate sandboxes to your development teams so they can start using them for development.
+
+## Before you begin
+
+You can watch a short video on how to allocate a sandbox.
+
+\[Omitted video\] Description: Demo of allocating a sandbox
+
+Role required: admin or sandbox\_manager
+
+## About this task
+
+You can allocate a sandbox at the beginning of a story or during the project planning process.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Sandbox Management** &gt; **Sandbox Management Home**.
+
+2.  Select **Allocate sandbox**.
+
+    \[Omitted image "dev-sbx-home-allocate-btn.png"\] Alt text: Allocate sandbox button on the home dashboard
+
+3.  On the form, fill in the fields.
+
+<table id="table_r2b_zqk_fcc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allocate to
+
+</td><td>
+
+User that owns the sandbox.
+
+</td></tr><tr><td>
+
+Sandbox template
+
+</td><td>
+
+Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/create-sandbox-template.md).
+
+</td></tr><tr><td>
+
+Sandbox alias
+
+</td><td>
+
+Name that's used in the unique URL for the sandbox.
+
+</td></tr></tbody>
+</table>    \[Omitted image "dev-sbx-allocate-modal.png"\] Alt text: Fill in the Allocate Sandbox form
+
+4.  Select **Allocate**.
+
+    \[Omitted image "dev-sbx-allocate-requested.png"\] Alt text: Provisioned sandbox initializing
+
+
+## Result
+
+Developer Sandboxes starts the process of provisioning the sandbox.
+
+**Note:** It can take between 10 minutes and two hours for a sandbox to be provisioned, depending on the size of the tables used in the template. You can select the refresh icon \[Omitted image "dev-sbx-refresh-icon.png"\] Alt text: to see updates to the Sandboxes list.The record for the sandbox appears in the list as **Initializing** until the sandbox is ready.
+
+Once allocated, developers can access their sandbox by pre-pending the **Sandbox alias** value to the instance name followed by `devsandboxes`. For example, `https://samsbox.[instance].devsandboxes.servicenow.com`.
+
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
+

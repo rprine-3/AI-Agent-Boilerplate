@@ -1,0 +1,81 @@
+---
+title: Create a Work scheduler card using the Next Experience UI Builder
+description: Create a work scheduler card and add the components that you want to display based on your needs in the Work Scheduler application in manager workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Create a Work scheduler card using the Next Experience UI Builder
+
+Create a work scheduler card and add the components that you want to display based on your needs in the Work Scheduler application in manager workspace.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Role required: workspace\_admin or ui\_builder\_admin​
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+
+2.  In the **My experiences** list, select **Manager Workspace**.
+
+3.  Select the Pages icon.
+
+4.  In the **Page** menu, select **Work scheduler**.
+
+5.  In the left pane, go to the **Content** section and navigate to **Body \(Flex\)** &gt; **Work queue \(Flex\)** &gt; **Sidebar**.
+
+6.  In the right pane, select the icon \(\[Omitted image "edit-card-icon.png"\] Alt text: Edit card icon\) in the **Work item cards default** sub-page.
+
+7.  In the left pane, select **Body \(Flex\)** &gt; **Viewport1**.
+
+8.  In the right pane, select **+Add** and enter a name for the card.
+
+    The **Path** field is automatically populated.
+
+9.  Select **Create**.
+
+    A new card is created.
+
+    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.md).
+
+10. Select **Done**.
+
+    Follow the steps listed in each of the topics below in the given sequence to customize Work scheduler.
+
+
+1.  [Create a client state parameter for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-client-state-params.md)  
+Add custom client state parameter values to add properties to the card components.
+2.  [Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-scripts.md)  
+Add custom page scripts for the Work scheduler so that you can update the client state through events or update transform workItem object to properties.
+3.  [Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-create-page-properties.md)  
+Add the **workItem** property to the Work scheduler page configuration to receive the **workItem** object provided by the work queue.
+4.  [Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-event-mapping.md)  
+Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
+5.  [Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-container.md)  
+Present information in an intuitive format using the Card Base Container component.
+6.  [Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.md)  
+Customize the Work scheduler heading component to display the title based on your needs.
+7.  [Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)  
+Add the **Label value stacked** display work item fields within the card.
+8.  [Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)  
+Use the **Container** component to add an avatar and the user name of the work item assignee.
+9.  [Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/associate-card-config-wfo-itsm.md)  
+Associate the work scheduler card that you've created to the work configuration to display the card in the Work scheduler sidebar.
+
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-work-scheduler.md)
+
+**Related topics**  
+
+
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
+

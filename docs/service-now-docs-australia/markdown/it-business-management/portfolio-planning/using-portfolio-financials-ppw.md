@@ -1,0 +1,115 @@
+---
+title: Managing portfolio financials in Portfolio Planning
+description: View the financial breakdown of estimates, approved costs, benefits, and actuals and so on for portfolio financials.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-portfolio-financials-ppw.html
+release: australia
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Managing portfolio financials in Portfolio Planning
+
+View the financial breakdown of estimates, approved costs, benefits, and actuals and so on for portfolio financials.
+
+As a portfolio user, you can view the rolled up financial values of top-level demands and projects.
+
+You can view the costs by expense type or cost type. Using the Financials view at portfolio level, you can view different financial fields such as Budget \(approved budget for planning items\). These fields include Forecast, Variance \(difference between the approved budget and latest forecast\), Actuals, and the Remaining Estimates for Capex, Opex, Total, and Benefits for each planning item. This information helps you track the financial status of the planning items and decide which planning items to consider for the next planning cycle. It also helps you track spend to avoid overspending.
+
+Using the portfolio financials, portfolio managers can:
+
+-   Track the financial performance and status of planning items.
+-   Arrive at an informed decision by analyzing the estimated cost and benefits of a planning item while planning and prioritizing for the next Portfolio cycle.
+-   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
+-   Avoid overspending on planning items by comparing the approved budget with the latest forecast and actuals.
+
+**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-portfolio-fin-ppw.md).
+
+The portfolio financials view supports Demands and Projects with Fiscal Calendar type configuration only.
+
+\[Omitted image "fin-portfolio-financials-page-expense-type.png"\] Alt text: Portfolio financials page view expense type budget attribute.
+
+\[Omitted image "fin-portfolio-financials-page-cost-type.png"\] Alt text: Portfolio financials page view cost type budget attribute.
+
+**Note:** Group header row displays the rolled up values for Budget, Forecast, Variance, Actuals, and Remaining estimate of all the planning items in the group.
+
+The default view of portfolio financials is set to display the planning items grouped by their budget approval status. Budget approved grouping lists the planning items which have the budget allocated and approved. Approval pending grouping lists the planning items which don't have any budget or if the requested budget is not approved.
+
+The Budget value for these planning items displays as 0 instead of empty. This keeps the Budget and Forecast totals, and the resulting Variance, accurate when you group planning items by an attribute other than Budget status.
+
+**Note:** Portfolio financials view is not yet compatible with Investment Funding. This view may not show the right budget values allocated to planning items from Investment Funding application. This will be add as a future enhancement.
+
+In the left-grid, planning item details include name, rank, planning state, planning item type, and approved start date. These details also include total planned cost, total actual costs, total planned benefits, and ROI for the full planning item duration.
+
+In the right-grid, financial attributes of the planning items such as, Budget, Forecast, Variance, Actuals, and Remaining Estimates for Capex, Opex, Total, and Benefits portfolio for the portfolio timeline or breakdowns by year, quarter, month, or period.
+
+**Tip:** You can select the name of a planning item from the left-grid to directly access the financials record page of that planning item.
+
+You can export the portfolio financials details to Excel or CSV using the **Export** option \(\[Omitted image "fin-export-option.png"\] Alt text: Downward facing arrow indicating download option.\).
+
+## Customize your financials view
+
+Customize the portfolio financials to view and access the required parameters helping you in better planning your portfolio and planning items.
+
+-   You can get a more detailed and granular view of the financials at monthly, quarterly, and yearly view by defining Timescale and Range. Use time scale to select a fiscal period and filter the range within the time scale to view the financials for any specific months, quarters, or years.
+
+    \[Omitted image "fin-timescale-range-modal.png"\] Alt text: Time scale and range modal window.
+
+<table id="table_uvy_5bw_12c"><thead><tr><th>
+
+Time scale
+
+</th><th>
+
+Description and range
+
+</th></tr></thead><tbody><tr><td>
+
+Fiscal Month
+
+</td><td>
+
+Portfolio financials view by monthly breakdown.You can select up to 12 months.
+
+</td></tr><tr><td>
+
+Fiscal Quarter
+
+</td><td>
+
+Portfolio financials view by quarterly breakdown.You can select up to 4 quarters.
+
+</td></tr><tr><td>
+
+Fiscal Year
+
+</td><td>
+
+Portfolio financials view by yearly breakdown.You can select up to 5 years period.
+
+</td></tr><tr><td>
+
+Plan Timeline
+
+</td><td>
+
+Portfolio financial breakdown for the entire portfolio timeline.
+
+</td></tr></tbody>
+</table>-   Personalize grouping and columns in the grids.
+
+    Configure the columns and groupings in the right-grid using Personalize option \(\[Omitted image "icon-personalization-gear-symbol.png"\] Alt text: Gear icon for personalization settings.\) to build a custom view.
+
+    \[Omitted image "fin-personalize-right-grid.png"\] Alt text: Checkboxes list to customize portfolio financials view.
+
+    For example, if you want to compare budget and actuals breakdowns, select only these two options and apply your preferences. You can also customize the left-grid by selecting the required columns from the **Left Grid** list from the personalize settings.
+
+-   Group the planning items.
+
+    By default, the financials view is grouped by the Budget status column. You can remove Budget status grouping from the Grouped by row and drag-drop the required header to change this view. Budget values for planning items without an approved budget display as 0 in this view. The totals and variance stay accurate regardless of which attribute you group by.
+
+

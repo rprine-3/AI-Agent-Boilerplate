@@ -1,0 +1,78 @@
+---
+title: Request repair of hardware assets using Service Catalog
+description: Submit a Service Catalog request to repair hardware assets that are defective or pending repair in your stockroom.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-req-ham-assets-using-catalog.html
+release: australia
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Request repair of defective assets, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+---
+
+# Request repair of hardware assets using Service Catalog
+
+Submit a Service Catalog request to repair hardware assets that are defective or pending repair in your stockroom.
+
+## Before you begin
+
+Role required: asset
+
+## About this task
+
+You can request repair of multiple defective hardware assets in your stockroom using a single catalog request.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service catalog** &gt; **Asset Lifecycle** &gt; **Asset Repair**.
+
+2.  On the form, fill in the fields.
+
+<table id="table_gmv_gsd_lbc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Due Date
+
+</td><td>
+
+Date by which you want the defective assets to be repaired.
+
+</td></tr><tr><td>
+
+Stockroom
+
+</td><td>
+
+Stockroom that has assets to be repaired.
+
+</td></tr></tbody>
+</table>3.  Select assets to be repaired.
+
+    1.  Select the Edit Asset\(s\) icon \(\[Omitted image "icon-lock.png"\] Alt text: Edit asset icon\).
+
+    2.  Select the assets from the list.
+
+        You can add one or more assets to the request.
+
+    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text:.
+
+4.  Select **Submit**.
+
+
+## Result
+
+-   Your repair request is submitted successfully.
+-   A repair order is created in the **Draft** stage.
+-   Each asset in the repair order is associated with a repair order line that is in the **Troubleshoot** stage.
+
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
+

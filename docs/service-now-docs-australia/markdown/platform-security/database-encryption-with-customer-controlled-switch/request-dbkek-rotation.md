@@ -1,0 +1,43 @@
+---
+title: Requesting database key rotation
+description: Rotate the database key annually or as needed by submitting a request to support.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.html
+release: australia
+product: Database Encryption with Customer Controlled Switch
+classification: database-encryption-with-customer-controlled-switch
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Database Encryption, Encryption]
+---
+
+# Requesting database key rotation
+
+Rotate the database key annually or as needed by submitting a request to support.
+
+## Before you begin
+
+Role required: admin
+
+**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
+
+## About this task
+
+Key rotation occurs at night within 24 hours prior to the expiration date and does not interrupt service for the instance.
+
+**Note:** Currently, key rotation is only available in ServiceNow Commercial, Government Community Cloud \(GCC\), France, and Singapore environments.
+
+## Procedure
+
+1.  Contact Customer Service and Support to request any of the following key rotation actions:
+
+    -   Enroll to perform annual key rotation on all designated instances.
+    -   Obtain a historical report of the last three key rotations containing the following:
+        -   Instance name.
+        -   Key name and version.
+        -   Dates and times of rotation.
+    -   Schedule an early key rotation outside of the annual scheduled rotation.
+
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
+

@@ -1,0 +1,41 @@
+---
+title: Automation rules
+description: The Automation rules define how AI assets are set to be under managed assets.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/automation-rules.html
+release: australia
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: concept
+last_updated: "2026-03-27"
+reading_time_minutes: 1
+breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+---
+
+# Automation rules
+
+The Automation rules define how AI assets are set to be under managed assets.
+
+## Automation rules Overview
+
+The Automation rules page displays all default rules available in AI Control Tower. The AI stewards can modify the existing rules or create rules based on their organizational requirements.
+
+## Rule limits
+
+The Administrators can configure system-enforced limits on asset management rules through system properties. The recommended defaults are 5 active rules and 10 total rules, controlled by the following system properties:
+
+|System properties|description|
+|-----------------|-----------|
+|sn\_ai\_governance.management\_rule.max\_active\_rules|Max active rules|
+|sn\_ai\_governance.management\_rule.max\_total\_rules|Max total rules|
+
+## Rules execution
+
+Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the Run Now action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
+
+## References
+
+For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+
+For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-automation-rules.md)
+

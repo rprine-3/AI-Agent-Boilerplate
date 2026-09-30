@@ -1,0 +1,116 @@
+---
+title: Configure exception reason properties
+description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Recommend level findings require an approved exception reason before the form can be saved.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-properties.html
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+---
+
+# Configure exception reason properties
+
+When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
+
+## Before you begin
+
+Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_se.internal\_rest\_integration
+
+## Procedure
+
+1.  Select whether to **Enforce rejected exception reason validations**.
+
+    When enabled, and if an exception reason is rejected, the object linked to that reason becomes read-only. Users cannot make additional changes until either:
+
+    -   The Recommend level message is resolved.
+    -   A new exception reason is submitted.
+    This ensures strict compliance with validation rules and prevents inconsistent or unauthorized updates while an exception is unresolved.
+
+2.  Select whether to **Enable approvals in production**.
+
+    If `enable_exception_reason_approvals_in_production` is set to `false`, exceptions can only be approved in the instances in which they are raised.
+
+    **Note:** This setting is only applicable to development instances.
+
+3.  Approval groups will approve or reject exception requests and receive notifications.
+
+    -   Use the`Enable approvals in production` setting to control whether exceptions can be approved in production instances or only in development environments.
+    -   Approval group\(s\) displays the group or groups that will approve or reject exception reasons and also receive notifications when new approvals are requested.
+4.  Select whether to **Exclude approved exception reasons from technical debt**.
+
+    When enabled, findings with approved exception reasons will be excluded from technical debt metrics.
+
+    **Note:** This does not remove the finding from the system.
+
+5.  **Upon new finding found**, `er_finding_number_validation` , determines how exception reasons are handled when the same issue is detected again in a subsequent scan.
+
+    Options are: **Auto Accept Existing Reason** and **Re-approve Existing Reason**.
+
+6.  **Upon line number change**, `exception_reason_validation`
+
+    -   ``Determines how approved exception reasons are handled when the finding's line number changes in the code.
+    -   Options are **Auto Accept Existing Reason** \(default\) and **Re-approve Existing Reason**.
+    Choose whether to automatically accept the existing reason.
+
+    **Note:** When you deactivate Scan Engine definitions, the system handles base system and custom definitions differently to ensure accurate entitlement tracking and prevent quota overages.
+
+<table id="table_deactivation_behavior"><thead><tr><th>
+
+Scenario
+
+</th><th>
+
+Behavior
+
+</th></tr></thead><tbody><tr><td>
+
+Direct deactivation of base system definition
+
+</td><td>
+
+-   The definition is deactivated via UI or API without creating an override record.
+-   No override is recorded in the system.
+
+
+</td></tr><tr><td>
+
+Quota impact check after deactivation
+
+</td><td>
+
+-   Deactivated base system definitions are excluded from active definition counts.
+-   They do not count toward custom definition quotas.
+-   System recalculates entitlements accurately when definitions change status.
+
+
+</td></tr><tr><td>
+
+Override-then-deactivate existing workflow
+
+</td><td>
+
+-   When a base system definition is overridden and then deactivated, the behavior remains unchanged.
+-   The deactivated override does not count as a custom definition.
+
+
+</td></tr><tr><td>
+
+Entitlement hashing integrity
+
+</td><td>
+
+-   All combinations of base system and overridden definitions in active or inactive states produce consistent entitlement hash results.
+-   No regressions occur for states that existed before this feature was introduced.
+
+
+</td></tr></tbody>
+</table>    **Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
+
+
+-   **[Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-exception-reasons-scan-engine.md)**  
+Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
+
+**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+

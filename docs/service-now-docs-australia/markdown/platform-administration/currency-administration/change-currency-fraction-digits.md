@@ -1,0 +1,36 @@
+---
+title: Change default currency decimal places
+description: You can specify the number of decimal places stored and used in currency fields and calculations.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/change-currency-fraction-digits.html
+release: australia
+product: Currency Administration
+classification: currency-administration
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Change default currency decimal places
+
+You can specify the number of decimal places stored and used in currency fields and calculations.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **sys\_properties.list**.
+
+2.  Find **glide.currency\_price.use\_all\_fraction\_digits**, and set to the desired value.
+
+    |Value|Description|
+    |-----|-----------|
+    |false|Uses two decimal places.|
+    |true|Uses four decimal places. This value is the default.|
+
+
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
+

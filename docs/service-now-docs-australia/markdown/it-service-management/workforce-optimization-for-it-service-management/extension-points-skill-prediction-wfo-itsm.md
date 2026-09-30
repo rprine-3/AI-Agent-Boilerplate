@@ -1,0 +1,47 @@
+---
+title: Use extension points for skill prediction
+description: Use scripted extension points to customize skill prediction for tasks.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/extension-points-skill-prediction-wfo-itsm.html
+release: australia
+product: Workforce Optimization for IT Service Management
+classification: workforce-optimization-for-it-service-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Setting up skill prediction, Skills Management, Workforce Optimization for ITSM, IT Service Management]
+---
+
+# Use extension points for skill prediction
+
+Use scripted extension points to customize skill prediction for tasks.
+
+## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+The Skill Recommendation extension point is included with the Skill Recommendation \(com.snc.sre\) plugin.
+
+Role required: admin
+
+## About this task
+
+You can create multiple implementations for each extension point and provide an order number for each implementation. The implementation that has the lowest order number is executed.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Extension Points** &gt; **Client Extension Points**.
+
+2.  From the Extension Points list, select **Skill Recommendation** \(sn\_sre.SkillPredictionAPI\).
+
+3.  Do one of the following:
+
+    -   To create a new skill recommendation implementation, click **Create Implementation**.
+    -   To modify an existing implementation, from the **Implementations** related list, select a class.
+4.  Modify the script as required.
+
+5.  Click **Update**.
+
+
+**Parent Topic:**[Setting up skill prediction in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-skill-prediction-configurable-wfo-itsm.md)
+
