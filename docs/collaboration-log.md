@@ -25,6 +25,10 @@ This file is located at:
 
 ## Boilerplate Development Log
 
+### 2026-10-01
+- Renamed four ServiceNow documentation files with long Windows paths to improve clone compatibility.
+  - Updated files under `docs/service-now-docs-australia/markdown/`.
+
 ### 2026-09-10
 - Created generic boilerplate instance folder structure (`myinstance/`) with templates
   - Added `myinstance/_settings.json` template with example values
