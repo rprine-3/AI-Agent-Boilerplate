@@ -25,6 +25,26 @@ This file is located at:
 
 ## Boilerplate Development Log
 
+### 2026-10-02 (continued)
+- Extended mandatory accuracy guardrails to agents authored directly as well as through Agent Creator.
+  - Updated `.github/copilot-instructions.md` and `.github/agents/agent-creator.agent.md`.
+
+### 2026-10-02 (continued)
+- Required all newly created agents to include fact-checking and capability-limit guardrails.
+  - Updated `.github/agents/agent-creator.agent.md` template and validation checklist.
+
+### 2026-10-02 (continued)
+- Added repository guidance to state capability limits, validation status, and which Copilot agents load workspace instructions.
+  - Updated `.github/copilot-instructions.md` and `.github/instructions/setup-wizard.instructions.md`.
+
+### 2026-10-02 (continued)
+- Made collaboration-log updates an explicit assistant-owned completion step for significant repository changes.
+  - Updated `.github/copilot-instructions.md` to require logging before the final response.
+
+### 2026-10-02
+- Revised first-use setup guidance to provide a guided checklist, setup conversation examples, and credential-safety boundaries.
+  - Added `.github/instructions/setup-wizard.instructions.md` and clarified startup-prompt limitations in `.github/copilot-instructions.md`.
+
 ### 2026-10-01
 - Renamed four ServiceNow documentation files with long Windows paths to improve clone compatibility.
   - Updated files under `docs/service-now-docs-australia/markdown/`.

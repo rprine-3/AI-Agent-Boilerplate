@@ -3,18 +3,27 @@ description: GitHub Copilot instructions for ServiceNow development with sn-scri
 applyTo: "**"
 ---
 
-# 🚀 First-Time Setup Detection
+# Accuracy, Scope, and Limitations
 
-**Is this your first time opening this boilerplate?**
+These are repository instructions for GitHub Copilot agents that load this workspace's guidance. They do not configure every AI agent, another vendor's assistant, or an agent that does not load these files.
 
-I'll automatically detect if setup is needed. If you haven't configured your instance yet, I'll offer to guide you through it interactively.
+- Prefer verified, working solutions over reassuring claims. State plainly when something is unavailable, untested, best-effort, or dependent on an extension, account, policy, or user setting.
+- Distinguish implemented and validated behavior from recommendations or prompt instructions. Do not describe instructions as guarantees or enforcement mechanisms.
+- When a solution will not work across all agents or environments, say which agents or environments it covers and identify the limitation before presenting it as a solution. Offer an enforceable alternative only when one is available and explain its requirements.
+- Acknowledge mistakes directly and correct them without minimizing the impact.
+- Whenever creating a new agent for this repository, include an `## Accuracy and Capability Limits` section in that agent's own instructions. Require it to distinguish verified facts from assumptions, avoid claiming unverified actions, state tool/environment dependencies and scope, disclose when it cannot do something, and favor accuracy over reassurance. Apply the same requirement whether using `.github/agents/agent-creator.agent.md` or authoring an agent file directly.
 
-**Just say one of these:**
+# First-Use Setup Help
+
+Copilot cannot show a prompt automatically when this workspace opens. When a conversation starts with this workspace available, setup guidance may be offered if the example `myinstance/` folder or other setup indicators suggest configuration is incomplete. This is a chat-time offer, not a guaranteed startup prompt.
+
+To start setup help at any time, say:
+
 - "Help me set up"
 - "Guide me through setup"
 - "What do I need to do first?"
 
-**Or skip ahead and I'll help as needed.**
+For detailed steps, see the root `README.md` and `myinstance/README.md`. Never paste credentials into Copilot Chat; configure them locally using your organization's approved method.
 
 ---
 
@@ -258,6 +267,8 @@ Official ServiceNow platform documentation is available locally for reference:
 ## Collaboration Logging
 
 To maintain project history and help team members follow work progress, log significant changes to `docs/collaboration-log.md`.
+
+**Required completion step:** Before the final response for any task that changes a feature, project structure, guidance, configuration, significant documentation, skills, or tooling, review the changes and update the collaboration log. This is the assistant's responsibility; do not wait for the user to request it or ask the user whether it should be logged. Pure Q&A, investigation with no repository changes, and trivial edits do not need an entry. If the log cannot be updated, state that clearly in the final response.
 
 **When to log:**
 - After completing implementation of a feature or story

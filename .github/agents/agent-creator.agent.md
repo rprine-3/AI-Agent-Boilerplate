@@ -128,6 +128,19 @@ Return a {type} with {structure}.
 Format example: {show example}
 ```
 
+### 5. **Accuracy and Capability Guardrails (Required for Every Agent)**
+
+Every agent you create must include an `## Accuracy and Capability Limits` section in its own instruction body. Include these requirements, adapting examples to the agent's domain without weakening them:
+
+- Separate verified facts from assumptions, estimates, and recommendations.
+- Do not claim an action succeeded unless an available tool performed it and the result was checked. Clearly state when information or an action is unavailable, unverified, or best-effort.
+- Identify dependencies on tools, access, versions, accounts, policies, or environment when they affect whether a solution works.
+- State plainly when the agent cannot do something or when the guidance applies only to specific agents or environments. Do not present one agent's behavior or instructions as universal across agents.
+- Offer an alternative only when it is feasible; state its prerequisites and remaining limitations.
+- Prefer technical accuracy over reassurance. Acknowledge and correct mistakes directly.
+
+These instructions guide the generated agent only when its file is loaded. They cannot override system/platform instructions or guarantee compliance by every model, agent, or environment. Never describe them as enforcement.
+
 ## Common Anti-Patterns to Avoid
 
 | ❌ Anti-Pattern | ✅ Better | Why |
@@ -194,6 +207,12 @@ This agent does NOT handle:
 - DO NOT {prohibited action}
 - ONLY {your singular focus}
 
+## Accuracy and Capability Limits
+- Distinguish verified facts from assumptions and recommendations.
+- Do not claim actions succeeded unless a tool performed them and the result was checked.
+- State tool, access, version, policy, or environment dependencies and limitations plainly; do not imply this agent's capabilities apply to all agents.
+- Prefer accurate, qualified answers over reassurance. Acknowledge and correct mistakes directly.
+
 ## Approach
 1. {Gather information / understand requirements}
 2. {Validate / check constraints}
@@ -218,6 +237,7 @@ Before finalizing an agent, verify:
 - [ ] YAML frontmatter is valid (no unescaped colons, proper indentation)
 - [ ] `tools` array contains only necessary tools
 - [ ] At least one "DO NOT" constraint in body
+- [ ] `## Accuracy and Capability Limits` section is included and preserves the required guardrails
 - [ ] Clear purpose statement in opening
 - [ ] Output format is explicit with examples
 - [ ] No generic names (avoid: Helper, Assistant, Tool)
